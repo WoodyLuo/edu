@@ -18,7 +18,9 @@
   5-4. $ git branch -M main
   5-5. $ git push -u origin main
 6. Check your repository.
-7. Finish.
+7. Set your repository to git hubpage.
+  7-1 Setting -> Pages(at "Code and automation") -> GitHub Actions (at "Source")
+
 
 My repository name: edu
 My remote URL of repository: https://github.com/WoodyLuo/edu.git
