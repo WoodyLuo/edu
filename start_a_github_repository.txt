@@ -1,0 +1,41 @@
+/* 
+ * Date: 2024.03.22
+ * Name: Woody Luo Wen-Cheng
+ */
+
+1. Sign up a github account.
+2. Login to github.
+3. Create a repository.
+  3-1. Open terminal.
+  3-2. Change directory/path to your working space.
+  3-3. $ git clone https://github.com/username/repositoryname.git
+  3-4. $ git init
+4. Start coding.
+5. Upload codes
+  5-1. $ git status
+  5-2. $ git add --all
+  5-3. $ git commit -m "YourChanging."
+  5-4. $ git branch -M main
+  5-5. $ git push -u origin main
+6. Check your repository.
+7. Finish.
+
+My repository name: edu
+My remote URL of repository: https://github.com/WoodyLuo/edu.git
+
+
+Notes:
+N01. Get your remote URL:
+|  $ git config --get remote.origin.url
+N02. ... If create a new repository on the command line
+|  $ echo "# edu" >> README.md
+|  $ git init
+|  $ git add README.md
+|  $ git commit -m "first commit"
+|  $ git branch -M main
+|  $ git remote add origin https://github.com/WoodyLuo/edu.git
+|  $ git push -u origin main
+N03. ... If push an existing repository from the command line
+|  git remote add origin https://github.com/WoodyLuo/edu.git
+|  git branch -M main
+|  git push -u origin main
