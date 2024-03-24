@@ -6,6 +6,8 @@
 
     <!-- Bootstrap CSS-->
     <link rel="stylesheet" href="../vender/bootstrap-5.3.3/css/bootstrap.min.css" />
+    <!-- Chartjs JS-->
+    <script type="text/javascript" src="../vender/chartjs-4.4.2/chartjs.js" ></script>
 </head>
 <body>
     
@@ -32,6 +34,7 @@
     <div class="content p-4">
         <h1 class="text-center ">臺北市私立靜心高中</h1>
         <h2 class="text-center">網頁序列埠</h2>
+        <p class="text-center"><a href="./example/SerailPinrtExample.zip" download>範例程式下載</a></p>
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="card text-center">
@@ -78,6 +81,24 @@
                     </div>
                 </div>
             </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="card text-center">
+                    <div class="card-header">
+                      存儲圖表資料
+                    </div>
+                    <div class="card-body">
+                        <button id="download_button" type="button" disabled class="btn btn-light btn-outline-secondary">
+                            下載折線圖
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <canvas id="my_chart"></canvas>
+            </div>
         </div>
 
         <div class="row">
@@ -102,6 +123,6 @@
      <!-- Bootstrap JS -->
      <script type="text/javascript" src="../vender/bootstrap-5.3.3/js/bootstrap.bundle.min.js"></script>
 
-    <script src="./chjhs_web_serial.js"></script>
+    <script type="text/javascript" src="./chjhs_web_serial.js"></script>
 </body>
 </html>

@@ -14,6 +14,7 @@ var _reader = null;
 let _buffer = "";
 var export_button = document.getElementById("export_button");
 var _first_row = true;
+var _num = 1;
 
 async function requestSerialPort(){
     // 建立web預覽器的serial物件
@@ -108,7 +109,117 @@ var tableToExcel = (function() {
       var ctx = {worksheet: name || 'Worksheet', table: table.innerHTML}
       window.location.href = uri + base64(format(template, ctx))
     }
-  })()
+})()
+
+
+class ColorManager{
+    constructor(){
+      this.config = {
+        fill: true,
+        backgroundColor: "", 
+        borderColor: "", 
+        pointBackgroundColor: "",
+        pointBorderColor: "#fff",
+        pointHoverBackgroundColor: "#fff", 
+        pointHoverBorderColor: "",
+      };
+      this.colorTable = {"blue":1, "red":2, "yellow":3, "orange":4, "green":5, "violet":6, "brown":7, "grey":0};                 
+    }; // ColorManager.constructor()
+    blue(){
+      this.config.backgroundColor = "rgba(0, 176, 240, 0.2)";
+      this.config.borderColor = "rgb(0, 176, 240)";
+      this.config.pointBackgroundColor = "rgb(0, 175, 240)";
+      this.config.pointHoverBorderColor = "rgb(255, 99, 132)";
+    };// ColorManager.blue()
+    red(){
+      this.config.backgroundColor = "rgba(255, 99, 132, 0.2)";
+      this.config.borderColor = "rgb(255, 99, 132)";
+      this.config.pointBackgroundColor = "rgb(255, 99, 132)";
+      this.config.pointHoverBorderColor = "rgb(255, 99, 132)";
+    };// ColorManager.red()
+    yellow(){
+      this.config.backgroundColor = "rgba(232, 193, 107, 0.2)";
+      this.config.borderColor = "rgb(232, 193, 107)";
+      this.config.pointBackgroundColor = "rgb(232, 193, 107)";
+      this.config.pointHoverBorderColor = "rgb(232, 193, 107)";
+    };// ColorManager.yellow()
+    orange(){
+      this.config.backgroundColor = "rgba(255, 140, 55, 0.2)";
+      this.config.borderColor = "rgb(255, 140, 55)";
+      this.config.pointBackgroundColor = "rgb(255, 140, 55)";
+      this.config.pointHoverBorderColor = "rgb(255, 140, 55)";
+    };// ColorManager.orange()
+    green(){
+      this.config.backgroundColor = "rgba(0, 181, 92, 0.2)";
+      this.config.borderColor = "rgb(0, 181, 92)";
+      this.config.pointBackgroundColor = "rgb(0, 181, 92)";
+      this.config.pointHoverBorderColor = "rgb(0, 181, 92)";
+    };// ColorManager.green()
+    violet(){
+      this.config.backgroundColor = "rgba(111, 55, 142, 0.2)";
+      this.config.borderColor = "rgb(111, 55, 142)";
+      this.config.pointBackgroundColor = "rgb(111, 55, 142)";
+      this.config.pointHoverBorderColor = "rgb(111, 55, 142)";
+    };// ColorManager.violet()
+    brown(){
+      this.config.backgroundColor = "rgba(155, 77, 78, 0.2)";
+      this.config.borderColor = "rgb(155, 77, 78)";
+      this.config.pointBackgroundColor = "rgb(155, 77, 78)";
+      this.config.pointHoverBorderColor = "rgb(155, 77, 78)";
+    };// ColorManager.brown()
+    grey(){
+      this.config.backgroundColor = "rgba(147, 77, 78, 0.2)";
+      this.config.borderColor = "rgb(147, 77, 78)";
+      this.config.pointBackgroundColor = "rgb(147, 77, 78)";
+      this.config.pointHoverBorderColor = "rgb(147, 77, 78)";
+    };// ColorManager.grey()
+    getAllColorKeys(){
+      return ["blue" ,"red", "yellow", "orange", "green", "violet", "brown", "grey"];
+    };// ColorManager.getAllColorKeys()
+    setColotByIndex(_index){
+      var _temp = _index%8;
+      if(_temp===1){
+        this.blue();
+      }else if(_temp===2){
+        this.red();
+      }else if(_temp===3){
+        this.yellow();
+      }else if(_temp===4){
+        this.orange();
+      }else if(_temp===5){
+        this.green();
+      }else if(_temp===6){
+        this.violet();
+      }else if(_temp===7){
+        this.brown();
+      }else if(_temp===0){
+        this.grey();
+      }else{
+        throw "TypeError: Please enter a NUMBER.";
+      }// if.. else if.. else..
+    };// ColorManager.setColorByIndex()
+    setConfig(newConfig){
+      this.config = {
+        ...this.config,
+        ...newConfig
+      };
+    }// ColorManager.setConfig()
+    getConfig(_colorOfDataset){
+      var _colorIndex = NaN;
+      if(Number.isInteger(_colorOfDataset)){
+        this.setColorByIndex(_colorOfDataset);
+      }else if(typeof(_colorOfDataset)==='string'){
+        _colorIndex = this.colorTable[_colorOfDataset];
+        if(!_colorIndex){
+          throw "UndefinedError: Please check your color code was unavailable.";
+        }else{
+          this.setColorByIndex(_colorIndex);
+        }// if..else..
+      }// if..else if..
+      return this.config;
+    }// ColorManager.getConfig()
+};// ColorManager{}
+
 
 
 /*
