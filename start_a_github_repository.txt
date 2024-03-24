@@ -38,6 +38,16 @@ N02. ... If create a new repository on the command line
 |  $ git remote add origin https://github.com/WoodyLuo/edu.git
 |  $ git push -u origin main
 N03. ... If push an existing repository from the command line
-|  git remote add origin https://github.com/WoodyLuo/edu.git
-|  git branch -M main
-|  git push -u origin main
+|  $ git remote add origin https://github.com/WoodyLuo/edu.git
+|  $ git branch -M main
+|  $ git push -u origin main
+N04. Get others code form remote
+|  $ git pull origin main
+
+
+macOS arduino-cli:
+/usr/local/bin/arduino-cli compile --fqbn arduino:avr:uno --build-cache-path /tmp --output-dir /tmp/4194473007/build --build-path /tmp/arduino-build-90E32F6B6667AC8F7B6D8BB15DBC5C98 /tmp/4194473007/car_game_jan13a
+
+Sketch uses 5254 bytes (16%) of program storage space. Maximum is 32256 bytes.
+
+Global variables use 377 bytes (18%) of dynamic memory, leaving 1671 bytes for local variables. Maximum is 2048 bytes.
