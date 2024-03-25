@@ -75,7 +75,7 @@ async function requestSerialPort(){
             //console.log(serial_data.length === undefined);
             if(! (serial_data.length === 1)){
                 var _row = serial_data.shift();
-                 await makeTableRow("serial_data", _row, true);
+                await makeTableRow("serial_data", _row, true);
                 //var p = document.createElement('p');
                 //p.textContent = serial_data.shift();
                 //console.log(p.textContent);
@@ -115,7 +115,7 @@ async function makeTableRow(serial_table_id, string_data, time_stamp){
     string_data = string_data.split(",");
     // Make datasets frame.
     if(_first_row){
-      _first_row = false;
+      
       _num_of_datasets = string_data.length - 1;
       //console.log("_num_of_datasets:"+_num_of_datasets);
       //console.log("string_data.length:"+string_data.length);
@@ -135,11 +135,11 @@ async function makeTableRow(serial_table_id, string_data, time_stamp){
         //console.log(_a_data);
         _cell.innerHTML = _a_data;
         if(!_first_row && _counter > 0){
-          _datasets.datasets[_counter-1].data.push(Number(_a_data));
+          _datasets.datasets[_counter-1].data.push(parseFloat(_a_data));
         }
         _counter++;
     }
-     
+    _first_row = false;
 }
 
 async function makeDatasetsFrame(data_length, data){
