@@ -1,0 +1,177 @@
+<xml version="F2" board="Arduino Uno" xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="=Mr#%d.pi0:Z]PX%F[BT">temperatur</variable>
+    <variable id="UBOR;e6HPgzU5.,y;-J4">humidity</variable>
+    <variable id="hhdKhC{K~WH*oun*EH;)">i</variable>
+  </variables>
+  <block type="initializes_setup" id="0" x="100" y="50">
+    <statement name="CONTENT">
+      <block type="variables_set" id="C2?-0)Yxh|;:hw#=3r~N">
+        <field name="POSITION">global</field>
+        <field name="TYPE">float</field>
+        <field name="VAR" id="=Mr#%d.pi0:Z]PX%F[BT">temperatur</field>
+        <value name="VALUE">
+          <shadow type="math_number" id="{0J:dFNM[d``EDNc`{]P">
+            <field name="NUM">0</field>
+          </shadow>
+          <block type="math_number" id="WE=fk@ZTQN2F=*#Jh|:`">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+        <next>
+          <block type="variables_set" id="um$Op(OOKpU~Z80I@CS|">
+            <field name="POSITION">global</field>
+            <field name="TYPE">float</field>
+            <field name="VAR" id="UBOR;e6HPgzU5.,y;-J4">humidity</field>
+            <value name="VALUE">
+              <shadow type="math_number">
+                <field name="NUM">0</field>
+              </shadow>
+              <block type="math_number" id="%V_7|u{{BZc)-W]VAO4(">
+                <field name="NUM">0</field>
+              </block>
+            </value>
+            <next>
+              <block type="serial_init" id=",dGIfYSkg4B88XwS7Jd[">
+                <field name="SPEED">9600</field>
+                <comment pinned="false" h="72" w="522">序列埠資料顯示範例，資料已 ','逗號 做為資料分割，以'\r\n' 換行 作為下一筆資料的區分。</comment>
+                <next>
+                  <block type="serial_println" id="_+]793)Fddq2PeU/nkYz">
+                    <value name="CONTENT">
+                      <block type="text" id="z93pD;Ka$Ub`rjJFHyP3">
+                        <field name="TEXT">Temperature, Humidity</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="math_randomseed" id="0LPa:Ecp/E{mdW=S1zte">
+                        <value name="seed">
+                          <shadow type="math_number" id="T.#:xRp*I2|qiO;(a1iI">
+                            <field name="NUM">0</field>
+                          </shadow>
+                          <block type="inout_analog_read" id="A]-Y9O%h(55xD:k:guc.">
+                            <field name="PIN">A0</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="controls_for" id="@zz+q,y9(h|dnDeGO)o9">
+                            <field name="VAR" id="hhdKhC{K~WH*oun*EH;)">i</field>
+                            <value name="FROM">
+                              <block type="math_number" id="{1{Bu0rh:vAl^fCD3;/R">
+                                <field name="NUM">1</field>
+                              </block>
+                            </value>
+                            <value name="TO">
+                              <block type="math_number" id="#~f`901jI~R)[WU_}Qdr">
+                                <field name="NUM">100</field>
+                              </block>
+                            </value>
+                            <value name="BY">
+                              <block type="math_number" id="`P~#Gm}Z}%Q=7dI}p!|.">
+                                <field name="NUM">1</field>
+                              </block>
+                            </value>
+                            <statement name="DO">
+                              <block type="variables_set3" id="kPRWHn_4+1L,NqBLc4NV">
+                                <field name="VAR" id="=Mr#%d.pi0:Z]PX%F[BT">temperatur</field>
+                                <value name="DELTA">
+                                  <shadow type="math_number" id="qsRzZTQ}R_b!4%79kg6k">
+                                    <field name="NUM">0</field>
+                                  </shadow>
+                                  <block type="math_arithmetic" id="k;x/Ks.+fAl?i*MXY#n)">
+                                    <field name="OP">DIVIDE</field>
+                                    <value name="A">
+                                      <block type="math_random_max_min" id="-.wk(1Z8,sb~mOii1;lX">
+                                        <value name="MIN">
+                                          <block type="math_number" id="1CnjOBNrwS2P]}~L{bR}">
+                                            <field name="NUM">160</field>
+                                          </block>
+                                        </value>
+                                        <value name="MAX">
+                                          <block type="math_number" id="9Dh-MKprEWT9}23HGDzW">
+                                            <field name="NUM">300</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </value>
+                                    <value name="B">
+                                      <block type="math_number" id="+bIf*xlp`dJPKmhjS6T:">
+                                        <field name="NUM">10</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="variables_set3" id="kam/km?T0!W:u~14j.pD">
+                                    <field name="VAR" id="UBOR;e6HPgzU5.,y;-J4">humidity</field>
+                                    <value name="DELTA">
+                                      <shadow type="math_number">
+                                        <field name="NUM">0</field>
+                                      </shadow>
+                                      <block type="math_arithmetic" id="QSEPAfU]QjDNNxTDbCU?">
+                                        <field name="OP">DIVIDE</field>
+                                        <value name="A">
+                                          <block type="math_random_max_min" id="mk.em}16nP;Q0,.[rj+6">
+                                            <value name="MIN">
+                                              <block type="math_number" id="K1G|W!c-J)]$_ZXyB8[:">
+                                                <field name="NUM">750</field>
+                                              </block>
+                                            </value>
+                                            <value name="MAX">
+                                              <block type="math_number" id="LVB#|hlaq!wQ|w9X.PkL">
+                                                <field name="NUM">950</field>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </value>
+                                        <value name="B">
+                                          <block type="math_number" id="MkDZj3WpN6)U}|sh?zp-">
+                                            <field name="NUM">10</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="serial_println" id="8c:xMmDf!.ek69M-Qf]f">
+                                        <value name="CONTENT">
+                                          <block type="text_join" id="cHCC=V$GI^$gIpebJ|kS">
+                                            <mutation items="3"></mutation>
+                                            <value name="ADD0">
+                                              <block type="variables_get" id="5fUhrs26e(R+`iS}pvJ,">
+                                                <field name="VAR" id="=Mr#%d.pi0:Z]PX%F[BT">temperatur</field>
+                                              </block>
+                                            </value>
+                                            <value name="ADD1">
+                                              <block type="text" id="M!uc`d;ceebGfjj,~9gV">
+                                                <field name="TEXT">,</field>
+                                              </block>
+                                            </value>
+                                            <value name="ADD2">
+                                              <block type="variables_get" id="?T2HlYx%PoUcLN;AtkV6">
+                                                <field name="VAR" id="UBOR;e6HPgzU5.,y;-J4">humidity</field>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </statement>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <next>
+      <block type="initializes_loop" id="1"></block>
+    </next>
+  </block>
+</xml>
