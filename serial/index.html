@@ -6,6 +6,8 @@
 
     <!-- Bootstrap CSS-->
     <link rel="stylesheet" href="../vender/bootstrap-5.3.3/css/bootstrap.min.css" />
+    <!-- My Style CSS-->
+    <link rel="stylesheet" href="./style.css" />
     <!-- Chartjs JS-->
     <script type="text/javascript" src="../vender/chartjs-4.4.2/chartjs.js" ></script>
 </head>
@@ -87,9 +89,11 @@
                       存儲圖表資料
                     </div>
                     <div class="card-body">
-                        <button id="download_button" type="button" disabled class="btn btn-light btn-outline-secondary">
-                            下載折線圖
-                        </button>
+                        
+                            <button id="download_button" type="button" disabled class="btn btn-light btn-outline-secondary">
+                                <a id="image_data_url" class="link-secondary link-underline-light" download="ChartImage.png"  href="">下載折線圖</a>
+                            </button>
+                        
                     </div>
                 </div>
             </div>
@@ -109,12 +113,11 @@
         </div>
     </div>
 
-
-    
+    <button onclick="goToTop()" id="goto_top" title="Go to top">Top</button>
 
     <!-- Copyright -->
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-        © 2024 羅文成（生活科技老師）
+        © 2024 羅文成（生活科技）
     </div>
     <!-- Copyright -->
 

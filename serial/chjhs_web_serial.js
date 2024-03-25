@@ -2,6 +2,8 @@
 This website uses the web serial API to read the output of serial data of the microcontroller and convert the data into a table of web page elements. In addition, the table data in the web page can also be downloaded to the local computer and stored in Excel format, which facilitates users to conduct subsequent Excel data analysis.
 */
 
+// The program has not yet been reconstruction.
+
 var data_table = null;
 var serial_port_monitor = document.getElementById("serial_monitor");
 var serial_button = document.getElementById("serial_button");
@@ -15,6 +17,29 @@ let _buffer = "";
 var export_button = document.getElementById("export_button");
 var _first_row = true;
 var _num = 1;
+var _num_of_datasets = null;
+var _line_chart_canva = document.getElementById("my_chart");
+var _lables = [];
+var _datasets = {
+  labels: _lables,
+  datasets:[]
+};
+var _chart_config = {
+  type: "line",
+  data:_datasets,
+  options:{}
+};
+var _line_chart = new Chart(_line_chart_canva, _chart_config);
+var download_button = document.getElementById("download_button");
+
+download_button.addEventListener("click", (event) => {
+  /*Get image of canvas element*/
+  var _url_base64jp = _line_chart_canva.toDataURL("image/png", 1);
+  /*get download button (tag: <a></a>) */
+  _image_data_url =  document.getElementById("image_data_url");
+  /*insert chart image url to download button (tag: <a></a>) */
+  _image_data_url.href = _url_base64jp;
+});
 
 async function requestSerialPort(){
     // 建立web預覽器的serial物件
@@ -50,7 +75,7 @@ async function requestSerialPort(){
             //console.log(serial_data.length === undefined);
             if(! (serial_data.length === 1)){
                 var _row = serial_data.shift();
-                await makeTableRow("serial_data", _row, true);
+                 await makeTableRow("serial_data", _row, true);
                 //var p = document.createElement('p');
                 //p.textContent = serial_data.shift();
                 //console.log(p.textContent);
@@ -76,28 +101,62 @@ export_button.addEventListener("click", (event) => {
     tableToExcel("serial_data", "SerialData");
 });
 
-function makeTableRow(serial_table_id, string_data, time_stamp){
+async function makeTableRow(serial_table_id, string_data, time_stamp){
     if(data_table === null){
         data_table = document.getElementById(serial_table_id);
         export_button.disabled = false;
     }
     if(time_stamp && _first_row){
         string_data = "Time," + string_data;
-        _first_row = false;
     }else if(time_stamp){
         string_data = new Date().toTimeString().split(" ")[0] + "," + string_data;
     }
     string_data = string_data.replace(" ", "");
     string_data = string_data.split(",");
+    // Make datasets frame.
+    if(_first_row){
+      _first_row = false;
+      _num_of_datasets = string_data.length - 1;
+      //console.log("_num_of_datasets:"+_num_of_datasets);
+      //console.log("string_data.length:"+string_data.length);
+      await makeDatasetsFrame(_num_of_datasets, string_data);
+      download_button.disabled = false;
+    }else{
+      // Deal with x-axis' label
+      _datasets.labels.push(_num);
+      _num++;
+    }
     let _data_row = data_table.insertRow(-1);
     let _counter = 0;
     while(string_data.length!=0){
         let _cell = _data_row.insertCell(_counter);
-        _cell.innerHTML = string_data.shift();
+        let _a_data = string_data.shift();
+        //console.log(_counter);
+        //console.log(_a_data);
+        _cell.innerHTML = _a_data;
+        if(!_first_row && _counter > 0){
+          _datasets.datasets[_counter-1].data.push(Number(_a_data));
+        }
         _counter++;
     }
+     
 }
 
+async function makeDatasetsFrame(data_length, data){
+  for(let i = 0; i <data_length; i++){
+    var new_dataset = new ColorManager();
+    new_dataset.setColorByIndex(i+1);
+    _datasets.datasets.push({
+      ...new_dataset.config,
+      label: data[i+1],
+      data:[],
+    });
+  }
+}
+
+setInterval(async function() {
+  await _line_chart.update();
+}, 250);
 
 var tableToExcel = (function() {
     var uri = 'data:application/vnd.ms-excel;base64,'
@@ -115,7 +174,7 @@ var tableToExcel = (function() {
 class ColorManager{
     constructor(){
       this.config = {
-        fill: true,
+        fill: false,
         backgroundColor: "", 
         borderColor: "", 
         pointBackgroundColor: "",
@@ -176,7 +235,7 @@ class ColorManager{
     getAllColorKeys(){
       return ["blue" ,"red", "yellow", "orange", "green", "violet", "brown", "grey"];
     };// ColorManager.getAllColorKeys()
-    setColotByIndex(_index){
+    setColorByIndex(_index){
       var _temp = _index%8;
       if(_temp===1){
         this.blue();
@@ -220,6 +279,26 @@ class ColorManager{
     }// ColorManager.getConfig()
 };// ColorManager{}
 
+
+// Get the button
+let go_to_top_button = document.getElementById("goto_top");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    go_to_top_button.style.display = "block";
+  } else {
+    go_to_top_button.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function goToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
 
 
 /*
