@@ -945,7 +945,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		if (typeof nw !== "undefined")
 			nw.Shell.openExternal("http://127.0.0.1:3000/WebMQTT.html")
 		else
-			window.open("https://woodyluo.github.io/edu/blocklyduino/mqtt_basic_page.html")
+			window.open("https://woodyluo.github.io/edu/blocklyduino/WebMQTT.html")
 	}); 	
 	
 	//切換語言

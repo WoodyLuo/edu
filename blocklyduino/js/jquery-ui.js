@@ -12376,7 +12376,7 @@ $.widget( "ui.dialog", {
 		// Support: IE
 		// Use type="button" to prevent enter keypresses in textboxes from closing the
 		// dialog in IE (#9312)
-		this.uiDialogTitlebarClose = $( "<button type='button'></button>" )
+		this.uiDialogTitlebarClose = $( "<button type='button'>X</button>" )
 			.button( {
 				label: $( "<a>" ).text( this.options.closeText ).html(),
 				icon: "ui-icon-closethick",
