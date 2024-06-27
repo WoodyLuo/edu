@@ -30,9 +30,14 @@ SPDX-License-Identifier: Apache-2.0
  limitations under the License.
 */
 
+var filepath = {
+    media: 'media/',
+    msg_zh: "msg/js/zh-hant.js",
+    msg_en: "msg/js/en.js"
+};
+
 Blockly.Constants={};
-var filepath = {};
-filepath.media = "./media";
+
 
 Blockly.Blocks.initializes={};
 Blockly.Blocks.initializes.HUE=30;
