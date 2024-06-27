@@ -268,6 +268,7 @@
 	<category id="category_initializes" name="%{BKY_CATEGORY_INITIALIZES}" colour="30">
 		<block type="initializes_setup"></block>
 		<block type="initializes_loop"></block>
+		<block type="initializes_restart"></block>
 	</category>	
 	<category id="category_digital" name="%{BKY_CATEGORY_DIGITAL}" colour="230">
 		<!--<block type="inout_digitalpin"></block>-->
