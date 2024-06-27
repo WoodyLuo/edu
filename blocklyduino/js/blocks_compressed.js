@@ -1,11 +1,11 @@
 /*
 @license
-Copyright 2022 Taiwan (ChungYi Fu)
+Project referece: ChungYi Fu
+Copyright 2024 Taiwan (Woody Lo, Wen-Cheng.)
 SPDX-License-Identifier: Apache-2.0
 
-@fileoverview Blocklyduino F1 (online)
-@author https://www.facebook.com/francefu/
-@Update 1/1/2022 00:00 (Taiwan Standard Time)
+@fileoverview Blocklyduino (online)
+@Update 01/27/2024 00:00 (Taiwan Standard Time)
 */
 
 "use strict";
