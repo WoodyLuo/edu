@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WenCheng</title>
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="../vender/bootstrap-5.3.3/css/bootstrap.min.css" />
+    <!-- My Style CSS-->
+    <link rel="stylesheet" href="../my/common.css" />
+    <!-- Chartjs JS-->
+    <script type="text/javascript" src="../vender/chartjs-4.4.2/chartjs.js" ></script>
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+        });
+    </script>
+    <script type="text/javascript" src="/vender/mathjax-2.7.1/mathjax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+    <!-- data js -->
+    <script type="text/javascript" src="./data.js"></script>
+</head>
+<body>
+    
+   
+    <!--
+    <p style="display: inline;">請選擇傳輸速率</p>
+    <select id = "baud_rate" name="baud_rate">
+        <option value = "NULL">====</option>
+        <option value = "4800">4800</option>
+        <option value = "9600">9600</option>
+        <option value = "19200">19200</option>
+        <option value = "31250">31250</option>
+        <option value = "38400">38400</option>
+        <option value = "57600">57600</option>
+        <option value = "74880">74880</option>
+        <option value = "115200">115200</option>
+        <option value = "230400">230400</option>
+    </select>
+    <button id="serial_button" type="button" class="btn btn-light btn-outline-secondary">選擇序列埠窗口</button>
+    <button id="export_button" type="button" class="btn btn-light btn-outline-secondary" disabled>輸出表格資料</button>
+    -->
+    
+    When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are
+        $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+    <div class="content p-4">
+        <h1 class="text-center ">臺北市私立靜心高中</h1>
+        <h2 class="text-center">K-means演算法</h2>
+        <div class="text-center ">
+            <p class="d-inline"><a href="./example/SerailPinrtExample.zip" download>範例程式下載</a></p>
+            <p class="text-center d-inline">、</p>
+            <p class="text-center d-inline"><a href="https://youtu.be/bptFno2kj38?si=3Nhf0iNhl6um9I76" target="_blank">教學影片</a></p>
+        </div>
+        
+
+        <div class="row">
+            <div class="col-12">
+                <canvas id="my_chart"></canvas>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div id="serial_monitor"></div>
+                <table id="serial_data" class="table"></table>
+            </div>
+        </div>
+    </div>
+
+    <button onclick="goToTop()" id="goto_top" title="Go to top">Top</button>
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2024 羅文成（生活科技）
+    </div>
+    <!-- Copyright -->
+
+     <!-- Popper JS -->
+     <script type="text/javascript" src="../vender/popper-2.11.8/popper.min.js"></script>
+     <!-- Bootstrap JS -->
+     <script type="text/javascript" src="../vender/bootstrap-5.3.3/js/bootstrap.bundle.min.js"></script>
+
+     <script type="text/javascript" src="../my/common.js"></script>
+</body>
+</html>

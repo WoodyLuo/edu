@@ -1,0 +1,975 @@
+<category id="category_custom" name="%{BKY_CHJHSBLOCKS}" colour="%{BKY_CHJHSBLOCKS_HUE}">
+	<category id="category_macro" colour="%{BKY_COLOR_PURPLE_PINK}" name="%{BKY_TEXT_MACRO}">
+		<block type="chjhs_define_identifier">
+			<value name="content"></value>
+		</block>
+		<block type="chjhs_define_call_function"></block>
+		<block type="chjhs_define_call_variable"></block>
+		<block type="chjhs_define_call_function_assigment"></block>
+		<block type="chjhs_define_expression"></block>
+		<block type="chjhs_define_expression_input"></block>
+		<block type="chjhs_define_if"></block>
+		<block type="chjhs_define_elif"></block>
+		<block type="chjhs_define_else"></block>
+		<block type="chjhs_define_endif"></block>
+	</category>
+	<category name="%{BKY_TEXT_IOPIN}" colour="%{BKY_IOPIN_HUE}">
+		<category name="%{BKY_TEXT_IOPIN_PIN}" colour="%{BKY_IOPIN_HUE}">
+			<block type="iopin_setting">
+				<value name="pin">
+					<shadow type="math_number">
+						<field name="NUM">0</field>
+					</shadow>
+				</value>
+			</block>
+			<block type="iopin_pin_number_uno"></block>
+		</category>
+		<category name="%{BKY_TEXT_IOPIN_DIGITAL}" colour="%{BKY_IOPIN_HUE}">
+			<block type="iopin_digital_pin_state"></block>
+			<block type="iopin_digital_write_with_output_mode">
+				<value name="pin">
+					<shadow type="math_number">
+						<field name="NUM">2</field>
+					</shadow>
+				</value>
+			</block>
+			<block type="iopin_digital_write_with_output_mode">
+				<value name="pin">
+					<block type="iopin_digital_pin_number_uno"></block>
+				</value>
+			</block>
+			<block type="iopin_digital_write">
+				<value name="pin">
+					<shadow type="math_number">
+						<field name="NUM">2</field>
+					</shadow>
+				</value>
+			</block>
+			<block type="iopin_digital_read_with_input_mode">
+				<value name="pin">
+					<shadow type="math_number">
+						<field name="NUM">2</field>
+					</shadow>
+				</value>
+			</block>
+			<block type="iopin_digital_read_with_input_mode">
+				<value name="pin">
+					<block type="iopin_digital_pin_number_uno"></block>
+				</value>
+			</block>
+			<block type="iopin_digital_read">
+				<value name="pin">
+					<shadow type="math_number">
+						<field name="NUM">2</field>
+					</shadow>
+				</value>
+			</block>
+			<block type="iopin_digital_read_with_pullup_mode">
+				<value name="pin">
+					<shadow type="math_number">
+						<field name="NUM">2</field>
+					</shadow>
+				</value>
+			</block>
+			<block type="inout_digital_pulsein">
+				<value name="pin">
+					<shadow type="math_number">
+						<field name="NUM">2</field>
+					</shadow>
+				</value>
+			</block>
+			<block type="iopin_digital_pin_number_uno"></block>
+		</category>
+		<category name="%{BKY_TEXT_IOPIN_ANALOG}" colour="%{BKY_IOPIN_HUE}">
+			<block type="iopin_analog_value">
+				<value name="value">
+					<shadow type="math_number">
+						<field name="NUM">128</field>
+					</shadow>
+				</value>
+			</block>
+			<block type="iopin_analog_write_with_output_mode"></block>
+			<block type="iopin_analog_write_with_output_mode">
+				<value name="pin">
+					<block type="iopin_analog_pin_number_uno"></block>
+				</value>
+				<value name="value">
+					<block type="iopin_analog_value">
+						<value name="value">
+							<shadow type="math_number">
+								<field name="NUM">128</field>
+							</shadow>
+						</value>
+					</block>
+				</value>
+			</block>
+			<block type="iopin_analog_write"></block>
+			<block type="iopin_analog_read_with_input_mode"></block>
+			<block type="iopin_analog_read_with_input_mode">
+				<value name="pin">
+					<block type="iopin_analog_pin_number_uno"></block>
+				</value>
+			</block>
+			<block type="iopin_analog_read"></block>
+			<block type="iopin_analog_pin_number_uno"></block>
+		</category>
+	</category>
+	<category id="category_serial" name="%{BKY_TEXT_CATEGORY_SERIAL}" colour="200">
+		<block type="serial_init"></block>
+		<block type="serial_available"></block>
+		<block type="serial_read"></block>
+		<block type="serial_peek"></block>
+		<block type="serial_print">
+			<value name="CONTENT">
+				<block type="text">
+					<field name="TEXT"></field>
+				</block>
+			</value>
+		</block>
+		<block type="serial_println">
+			<value name="CONTENT">
+				<block type="text">
+					<field name="TEXT"></field>
+				</block>
+			</value>
+		</block>
+		<block type="serial_parse"></block>
+		<block type="serial_end"></block>
+		<!--<block type="serial_byte_number"></block>-->
+	</category>
+	<category id="category_servo" name="%{BKY_TEXT_CATEGORY_SERVO}" colour="%{BKY_SERVO_HUE}">
+		<block type="chjhs_servo_init">
+        <value name="PIN">
+          <block type="math_number">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+      </block>
+	  <block type="chjhs_servo_custom_init">
+        <value name="PIN">
+          <block type="math_number">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+        <value name="MIN">
+          <block type="math_number">
+            <field name="NUM">400</field>
+          </block>
+        </value>
+        <value name="MAX">
+          <block type="math_number">
+            <field name="NUM">2600</field>
+          </block>
+        </value>
+      </block>
+	  <block type="chjhs_servo_write_pin">
+        <value name="ANGLE">
+          <block type="math_number">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+      </block>
+      <block type="chjhs_servo_360">
+        <value name="SPEED">
+          <block type="math_number">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+      </block>
+      <block type="chjhs_servo_detach"></block>
+	</category>
+	<!-- Display -->
+	<category name="%{BKY_TEXT_CHJHS_DISPLAY}" colour="%{BKY_DISPLAY_HUE}">
+		<category id="category_lcd1602" name="LCD1602">
+			<block type="chjhs_lcd1602_init"></block>
+			<block type="chjhs_lcd1602_show">
+				<value name="X">
+					<block type="math_number">
+						<field name="NUM">0</field>
+					</block>
+				</value>
+				<value name="Y">
+					<block type="math_number">
+						<field name="NUM">0</field>
+					</block>
+				</value>
+				<value name="TEXT">
+					<block type="text">
+						<field name="TEXT"></field>
+					</block>
+				</value>        
+			</block>
+			<block type="chjhs_lcd1602_backlight"></block>
+			<block type="chjhs_lcd1602_clear"></block>
+			<block type="chjhs_lcd1602_scroll"></block>
+			<block type="chjhs_lcd1602_bitmap"></block>
+			<block type="chjhs_lcd1602_bitmap_show">
+				<value name="X">
+				<block type="math_number">
+					<field name="NUM">0</field>
+				</block>
+				</value>
+				<value name="Y">
+				<block type="math_number">
+					<field name="NUM">0</field>
+				</block>
+				</value>
+				<value name="INDEX">
+				<block type="math_number">
+					<field name="NUM">0</field>
+				</block>
+				</value>
+			</block>
+		</category>
+		<category id="category_oled128x64" name="%{BKY_TEXT_OLED128X64}">
+			<block type="chjhs_oled128x64_init">
+				<value name="WIDTH">
+					<block type="math_number">
+						<field name="NUM">128</field>
+					</block>
+				</value>
+				<value name="HEIGHT">
+					<block type="math_number">
+						<field name="NUM">64</field>
+					</block>
+				</value>
+			</block>
+			<block type="chjhs_oled128x64_pixel_color"></block>
+			<block type="chjhs_oled128x64_font_size"></block>
+			<block type="chjhs_oled128x64_draw_pixel">
+				<value name="X">
+					<block type="math_number">
+						<field name="NUM">0</field>
+					</block>
+				</value>
+				<value name="Y">
+					<block type="math_number">
+						<field name="NUM">0</field>
+					</block>
+				</value>
+			</block>
+			<block type="chjhs_oled128x64_draw_line">
+				<value name="SX">
+					<block type="math_number">
+						<field name="NUM">0</field>
+					</block>
+				</value>
+				<value name="SY">
+					<block type="math_number">
+						<field name="NUM">0</field>
+					</block>
+				</value>
+				<value name="EX">
+					<block type="math_number">
+						<field name="NUM">128</field>
+					</block>
+				</value>
+				<value name="EY">
+					<block type="math_number">
+						<field name="NUM">64</field>
+					</block>
+				</value>
+			</block>
+			<block type="chjhs_oled128x64_draw_rectangle">
+				<value name="LT_X">
+					<block type="math_number">
+						<field name="NUM">0</field>
+					</block>
+				</value>
+				<value name="LT_Y">
+					<block type="math_number">
+						<field name="NUM">0</field>
+					</block>
+				</value>
+				<value name="WIDTH">
+					<block type="math_number">
+						<field name="NUM">128</field>
+					</block>
+				</value>
+				<value name="HEIGHT">
+					<block type="math_number">
+						<field name="NUM">64</field>
+					</block>
+				</value>
+			</block>
+			<block type="chjhs_oled128x64_set_cursor">
+				<value name="X">
+					<block type="math_number">
+						<field name="NUM">0</field>
+					</block>
+				</value>
+				<value name="Y">
+					<block type="math_number">
+						<field name="NUM">0</field>
+					</block>
+				</value>
+			</block>
+			<block type="chjhs_oled128x64_show">
+				<value name="X">
+					<block type="math_number">
+						<field name="NUM">0</field>
+					</block>
+				</value>
+				<value name="Y">
+					<block type="math_number">
+						<field name="NUM">0</field>
+					</block>
+				</value>
+				<value name="TEXT">
+					<block type="text">
+						<field name="TEXT"></field>
+					</block>
+				</value>        
+			</block>
+			<block type="chjhs_oled128x64_display"></block>
+			<block type="chjhs_oled128x64_clear"></block>
+			<block type="chjhs_oled128x64_display_bitmap">
+				<value name="X">
+					<block type="math_number">
+						<field name="NUM">0</field>
+					</block>
+				</value>
+				<value name="Y">
+					<block type="math_number">
+						<field name="NUM">0</field>
+					</block>
+				</value>
+				<value name="WIDTH">
+					<block type="math_number">
+						<field name="NUM">128</field>
+					</block>
+				</value>
+				<value name="HEIGHT">
+					<block type="math_number">
+						<field name="NUM">64</field>
+					</block>
+				</value>
+				<value name="BITMAP"><block type="chjhs_oled128x64_bitmap"></block></value>  
+			</block>
+			<block type="chjhs_oled128x64_rotation"></block>
+			<block type="chjhs_oled128x64_flip"></block>
+			<block type="chjhs_oled128x64_bitmap"></block>
+			<block type="chjhs_oled128x64_draw_circle">
+				<value name="X">
+					<block type="math_number">
+						<field name="NUM">0</field>
+					</block>
+				</value>
+				<value name="Y">
+					<block type="math_number">
+						<field name="NUM">0</field>
+					</block>
+				</value>
+				<value name="R">
+					<block type="math_number">
+						<field name="NUM">1</field>
+					</block>
+				</value>
+			</block>
+			<block type="chjhs_oled128x64_draw_triangle">
+				<value name="X1">
+					<block type="math_number">
+						<field name="NUM">0</field>
+					</block>
+				</value>
+				<value name="Y1">
+					<block type="math_number">
+						<field name="NUM">0</field>
+					</block>
+				</value>
+				<value name="X2">
+					<block type="math_number">
+						<field name="NUM">0</field>
+					</block>
+				</value>
+				<value name="Y2">
+					<block type="math_number">
+						<field name="NUM">0</field>
+					</block>
+				</value>
+				<value name="X3">
+					<block type="math_number">
+						<field name="NUM">0</field>
+					</block>
+				</value>
+				<value name="Y3">
+					<block type="math_number">
+						<field name="NUM">0</field>
+					</block>
+				</value>
+			</block>
+			<block type="chjhs_oled128x64_draw_round_rectangle">
+				<value name="LT_X">
+					<block type="math_number">
+						<field name="NUM">0</field>
+					</block>
+				</value>
+				<value name="LT_Y">
+					<block type="math_number">
+						<field name="NUM">0</field>
+					</block>
+				</value>
+				<value name="WIDTH">
+					<block type="math_number">
+						<field name="NUM">128</field>
+					</block>
+				</value>
+				<value name="HEIGHT">
+					<block type="math_number">
+						<field name="NUM">64</field>
+					</block>
+				</value>
+				<value name="R">
+					<block type="math_number">
+						<field name="NUM">1</field>
+					</block>
+				</value>
+			</block>
+			<block type="chjhs_oled128x64_return_parameter"></block>
+			<!--<block type="chjhs_oled128x64_inverse_font"></block>-->
+		</category>
+	</category>
+	<category name="%{BKY_TEXT_CHJHS_RGBLED}" colour="%{BKY_DISPLAY_HUE}">
+		<category id="category_ws2812_neopixel" name="%{BKY_TEXT_CHJHS_WS2812_LED_STRIP}">
+			<block type="chjhs_ws2812_neopixel_begin">
+				<value name="PIN">
+				<block type="math_number">
+					<field name="NUM">2</field>
+				</block>
+				</value>
+				<value name="TOTAL">
+				<block type="math_number">
+					<field name="NUM">10</field>
+				</block>
+				</value>
+				<value name="BRIGHTNESS">
+				<block type="math_number">
+					<field name="NUM">30</field>
+				</block>
+				</value>
+		    </block>
+			<block type="chjhs_ws2812_neopixel_set_all_led_color">
+				<value name="COLOR">
+				<block type="get_color_from_picker"></block>
+				</value>
+      		</block>
+			<block type="chjhs_ws2812_neopixel_set_color">
+				<value name="INDEX">
+					<block type="math_number">
+						<field name="NUM">0</field>
+					</block>
+				</value>
+				<value name="COLOR">
+					<block type="get_color_from_picker"></block>
+				</value>
+      		</block>
+			<block type="chjhs_ws2812_neopixel_brightness">
+				<value name="BRIGHTNESS">
+					<block type="math_number">
+						<field name="NUM">30</field>
+					</block>
+				</value>
+      		</block>
+			<block type="chjhs_ws2812_neopixel_show"></block>
+			<block type="chjhs_ws2812_neopixel_trun_off"></block>
+			<block type="chjhs_ws2812_color_flow"></block>
+			<block type="chjhs_ws2812_color_next">
+				<value name="COLOR">
+					<block type="get_color_from_picker">
+						<field name="RGB">#000000</field>
+					</block>
+					</value>
+					<value name="INTERVAL">
+					<block type="math_number">
+						<field name="NUM">50</field>
+					</block>
+				</value>       
+      		</block>
+			<block type="chjhs_ws2812_color_blink">
+				<value name="COLOR1">
+					<block type="get_color_from_picker">
+						<field name="RGB">#ff0000</field>
+					</block>
+					</value>
+					<value name="COLOR2">
+					<block type="get_color_from_picker">
+						<field name="RGB">#000000</field>
+					</block>
+					</value>
+					<value name="INTERVAL">
+					<block type="math_number">
+						<field name="NUM">50</field>
+					</block>
+				</value>         
+      		</block>
+			<block type="chjhs_ws2812_color_breathe">
+				<value name="COLOR">
+					<block type="get_color_from_picker">
+						<field name="RGB">#ff0000</field>
+					</block>
+				</value>
+				<value name="INTERVAL">
+					<block type="math_number">
+						<field name="NUM">10</field>
+					</block>
+				</value> 
+      		</block>
+			<block type="get_color_from_picker">
+						<field name="RGB">#ff0000</field>
+			</block>
+			<block type="chjhs_RGB_value">
+				<value name="RED">
+					<block type="math_number">
+						<field name="NUM">0</field>
+					</block>
+				</value>
+				<value name="GREEN">
+					<block type="math_number">
+						<field name="NUM">0</field>
+					</block>
+				</value>
+				<value name="BLUE">
+					<block type="math_number">
+						<field name="NUM">0</field>
+					</block>
+				</value>
+      		</block>
+	    </category>
+	</category>
+	<!-- Sensor -->
+	<category id="category_chjhs_sensors" name="%{BKY_TEXT_CHJHS_SENSORS}" colour="%{BKY_SENSOR_HUE}">
+		<category id="chjhs_dht" name="%{BKY_TEXT_CHJHS_DHT}">
+			<block type="chjhs_dht_init">
+				<value name="PIN">
+					<block type="math_number">
+						<field name="NUM">3</field>
+					</block>
+				</value>
+			</block>
+			<block type="chjhs_dht_read">
+				<value name="PIN">
+					<block type="math_number">
+						<field name="NUM">3</field>
+					</block>
+				</value>
+			</block>
+			<block type="chjhs_dht_compute_heat_index"></block>
+		</category>
+		<category id="chjhs_bmp280" name="%{BKY_TEXT_CHJHS_PRESSURE_SENSOR_BMP280}">
+			<block type="chjhs_bmp280_init"></block>
+			<block type="chjhs_bmp280_read_value"></block>
+			<block type="chjhs_bmp280_compute_water_boiling_point"></block>
+		</category>
+		<category id="chjhs_accelerometer" name="%{BKY_TEXT_CHJHS_ACCELEROMETER_SENSOR}">
+			<block type="chjhs_lis3dhtr_init"></block>
+			<block type="chjhs_lis3dhtr_get_data"></block>
+			<block type="chjhs_adxl345_init"></block>
+			<block type="chjhs_adxl345_get_data"></block>
+		</category>
+		<category id="chjhs_ultrasonic" name="%{BKY_TEXT_CHJHS_ULTRASONIC_HCSR04}">
+			<block type="chjhs_ultrasonic_init">
+				<value name="TRIG_PIN">
+				<block type="math_number">
+					<field name="NUM">9</field>
+				</block>
+				</value>
+				<value name="ECHO_PIN">
+				<block type="math_number">
+					<field name="NUM">10</field>
+				</block>
+				</value>
+			</block>
+			<block type="chjhs_ultrasonic_get_distance"></block>
+		</category>
+	</category>
+
+	<category id="category_chjhs_stepper" name="%{BKY_CHJHS_STEPPER_TITLE}" colour="%{BKY_COLOR_STEPPER}">
+      <block type="chjhs_stepper_init">
+        <value name="PIN1">
+          <block type="math_number">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+        <value name="PIN2">
+          <block type="math_number">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+        <value name="PIN3">
+          <block type="math_number">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+        <value name="PIN4">
+          <block type="math_number">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+        <value name="stepsPerRev">
+          <block type="math_number">
+            <field name="NUM">4096</field>
+          </block>
+        </value>
+        <value name="stepDelay">
+          <block type="math_number">
+            <field name="NUM">1</field>
+          </block>
+        </value>
+      </block>
+      <block type="chjhs_stepper_move">
+        <value name="STEPS">
+          <block type="math_number">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+      </block>
+      <block type="chjhs_stepper_move_to">
+        <value name="STEPS">
+          <block type="math_number">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+      </block>
+	  <block type="chjhs_stepper_run"></block>
+      <block type="chjhs_stepper_stop"></block>
+      <block type="chjhs_stepper_statement_not_moving"></block>
+      <block type="chjhs_stepper_is_moving"></block>
+      <block type="chjhs_stepper_remain_steps"></block>
+      <block type="chjhs_stepper_position"></block>      
+     </category>
+
+	<category id="category_keyboards" name="%{BKY_KEYBOARDS_NAME}" colour="%{BKY_COLOR_KEYPAYS}">
+      <block type="keyboards_0_init">
+        <value name="PIN_0">
+          <block type="math_number">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+        <value name="PIN_1">
+          <block type="math_number">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+        <value name="PIN_2">
+          <block type="math_number">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+        <value name="PIN_3">
+          <block type="math_number">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+        <value name="PIN_4">
+          <block type="math_number">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+        <value name="PIN_5">
+          <block type="math_number">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+        <value name="PIN_6">
+          <block type="math_number">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+      </block>
+      <block type="keyboards_check"></block>
+      <block type="keyboards_event"></block>
+      <block type="keyboards_value"></block>
+      <block type="keyboards_1_init">
+        <value name="PIN_0">
+          <block type="math_number">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+        <value name="PIN_1">
+          <block type="math_number">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+        <value name="PIN_2">
+          <block type="math_number">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+        <value name="PIN_3">
+          <block type="math_number">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+        <value name="PIN_4">
+          <block type="math_number">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+        <value name="PIN_5">
+          <block type="math_number">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+        <value name="PIN_6">
+          <block type="math_number">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+        <value name="PIN_7">
+          <block type="math_number">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+      </block>
+    </category>
+
+	<!-- CHJHS Tetris -->
+	<category name="%{BKY_TEXT_CHJHS_TETRIS}" colour="%{BKY_COLOR_TETRIS}">
+		<block type="chjhs_tetris_create_hardware_variable">
+			<value name="UP">
+				<block type="math_number">
+					<field name="NUM">5</field>
+				</block>
+			</value>
+			<value name="DOWN">
+				<block type="math_number">
+					<field name="NUM">4</field>
+				</block>
+			</value>
+			<value name="LEFT">
+				<block type="math_number">
+					<field name="NUM">7</field>
+				</block>
+			</value>
+			<value name="RIGHT">
+				<block type="math_number">
+					<field name="NUM">6</field>
+				</block>
+			</value>
+			<value name="SOUND">
+				<block type="math_number">
+					<field name="NUM">3</field>
+				</block>
+			</value>
+			<value name="WIDTH">
+				<block type="math_number">
+					<field name="NUM">64</field>
+				</block>
+			</value>
+			<value name="HEIGHT">
+				<block type="math_number">
+					<field name="NUM">128</field>
+				</block>
+			</value>
+		</block>
+		<block type="chjhs_tetris_get_hardware_variable"></block>
+		<block type="chjhs_tetris_set_hardware_variable"></block>
+		<block type="chjhs_tetris_create_all_blocks"></block>
+		<block type="chjhs_tetris_get_block">
+			<value name="ROTATION">
+				<block type="math_number">
+					<field name="NUM">0</field>
+				</block>
+			</value>
+			<value name="X">
+				<block type="math_number">
+					<field name="NUM">0</field>
+				</block>
+			</value>
+			<value name="Y">
+				<block type="math_number">
+					<field name="NUM">0</field>
+				</block>
+			</value>
+		</block>
+		<block type="chjhs_tetris_create_game_variables">
+			<value name="BLOCK_D">
+				<block type="math_number">
+					<field name="NUM">2</field>
+				</block>
+			</value>
+			<value name="BLOCK_E">
+				<block type="math_number">
+					<field name="NUM">4</field>
+				</block>
+			</value>
+			<value name="SCENE_X">
+				<block type="math_number">
+					<field name="NUM">10</field>
+				</block>
+			</value>
+			<value name="SCENE_Y">
+				<block type="math_number">
+					<field name="NUM">18</field>
+				</block>
+			</value>
+		</block>
+		<block type="chjhs_tetris_get_game_variables"></block>
+		<block type="chjhs_tetris_set_game_variables"></block>
+		<block type="chjhs_tetris_get_game_variables_2d">
+			<value name="D">
+				<block type="math_number">
+					<field name="NUM">0</field>
+				</block>
+			</value>
+			<value name="S">
+				<block type="math_number">
+					<field name="NUM">0</field>
+				</block>
+			</value>
+		</block>
+		<block type="chjhs_tetris_set_game_variables_2d">
+			<value name="D">
+				<block type="math_number">
+					<field name="NUM">0</field>
+				</block>
+			</value>
+			<value name="S">
+				<block type="math_number">
+					<field name="NUM">0</field>
+				</block>
+			</value>
+		</block>
+		<block type="chjhs_tetris_copy_piece">
+			<value name="PIECE"></value>
+			<value name="TYPE"></value>
+			<value name="ROTATION"></value>
+		</block>
+		<block type="chjhs_tetris_draw_layout"></block>
+		<block type="chjhs_tetris_refresh"></block>
+		<block type="chjhs_tetris_generate"></block>
+		<block type="chjhs_tetris_check_lines"></block>
+		<!--<block type="chjhs_tetris_current_collision"></block>-->
+		<block type="chjhs_tetris_next_horizontal_collision">
+			<value name="PIECE"></value>
+			<value name="AMOUNT"></value>
+		</block>
+		<block type="chjhs_tetris_next_collision"></block>
+		<block type="chjhs_tetris_get_max_rotation">
+			<value name="TYPE"></value>
+		</block>
+		<block type="chjhs_tetris_can_rotation">
+			<value name="ROTATION"></value>
+		</block>
+	</category>
+
+	<!-- meArm -->
+	<category name="%{BKY_NTUSTMEARM}" colour="%{BKY_CHJHSBLOCKS_HUE}">
+		<block type="set_mearm">
+			<value name="basePin">
+				<shadow type="math_number">
+					<field name="NUM">7</field>
+				</shadow>
+			</value>
+			<value name="shoulderPin">
+				<shadow type="math_number">
+					<field name="NUM">6</field>
+				</shadow>
+			</value>
+			<value name="elbowPin">
+				<shadow type="math_number">
+					<field name="NUM">5</field>
+				</shadow>
+			</value>
+			<value name="gripperPin">
+				<shadow type="math_number">
+					<field name="NUM">4</field>
+				</shadow>
+			</value>
+		</block>
+		<block type="ini_set_mearm">
+			<value name="basePin">
+				<shadow type="math_number">
+					<field name="NUM">7</field>
+				</shadow>
+			</value>
+			<value name="shoulderPin">
+				<shadow type="math_number">
+					<field name="NUM">6</field>
+				</shadow>
+			</value>
+			<value name="elbowPin">
+				<shadow type="math_number">
+					<field name="NUM">5</field>
+				</shadow>
+			</value>
+			<value name="gripperPin">
+				<shadow type="math_number">
+					<field name="NUM">4</field>
+				</shadow>
+			</value>
+			<value name="xMin">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+			<value name="xMax">
+				<shadow type="math_number">
+					<field name="NUM">160</field>
+				</shadow>
+			</value>
+			<value name="yMin">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+			<value name="yMax">
+				<shadow type="math_number">
+					<field name="NUM">100</field>
+				</shadow>
+			</value>
+			<value name="zMin">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+			<value name="zMax">
+				<shadow type="math_number">
+					<field name="NUM">50</field>
+				</shadow>
+			</value>
+			<value name="gMin">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+			<value name="gMax">
+				<shadow type="math_number">
+					<field name="NUM">60</field>
+				</shadow>
+			</value>
+		</block>
+		<block type="get_mearm_angle"></block>
+		<block type="set_mearm_angle">
+			<value name="servoAngle">
+				<shadow type="math_number">
+					<field name="NUM">0.0</field>
+				</shadow>
+			</value>
+		</block>
+		<block type="move_mearm">
+			<value name="angleX">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+			<value name="angleY">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+			<value name="angleZ">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+			<value name="angleG">
+				<shadow type="math_number">
+					<field name="NUM">0</field>
+				</shadow>
+			</value>
+		</block>
+		
+	</category>
+
+</category>

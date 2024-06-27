@@ -33,6 +33,7 @@ N02. ... If create a new repository on the command line
 |  $ echo "# edu" >> README.md
 |  $ git init
 |  $ git add README.md
+|  $ git add --all
 |  $ git commit -m "first commit"
 |  $ git branch -M main
 |  $ git remote add origin https://github.com/WoodyLuo/edu.git

@@ -1,0 +1,4 @@
+<xml xmlns="https://developers.google.com/blockly/xml">					
+	<board upload="LinkIt:linkit_rtos:linkit_7697" name="LinkIt 7697"></board>
+	<board upload="LinkIt:avr:smart7688" name="LinkIt Smart 7688 Duo"></board>
+</xml>
