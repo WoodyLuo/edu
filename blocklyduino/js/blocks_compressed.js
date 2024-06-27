@@ -31,7 +31,8 @@ SPDX-License-Identifier: Apache-2.0
 */
 
 Blockly.Constants={};
-
+var filepath = {};
+filepath.media = "./media";
 
 Blockly.Blocks.initializes={};
 Blockly.Blocks.initializes.HUE=30;

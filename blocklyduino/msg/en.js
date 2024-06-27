@@ -2243,6 +2243,7 @@ Blockly.Msg["BAUDRATE"] = "Buad Rate";
 Blockly.Msg["MYBACKPACK_TITLE"] = "BACKPACK";
 Blockly.Msg["MSG_TOOLBOX"] = "Toolbox";
 Blockly.Msg["MSG_CODE"] = "Arduino Code";
+Blockly.Msg["MSG_SERIAL_TOOL"] = "Serial Tool";
 Blockly.Msg["LANG-SELECTOR"] = "Select Language";
 Blockly.Msg["BOARD-SELECTOR"] = "Select Board";
 Blockly.Msg["COM-SELECTOR"] = "Select COM";

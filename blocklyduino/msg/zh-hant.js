@@ -2547,6 +2547,7 @@ Blockly.Msg["BUTTON_COPYCODE_SUCCESS"] = "複製程式碼到剪貼簿成功！";
 Blockly.Msg["BAUDRATE"] = "鮑率";
 Blockly.Msg["MSG_TOOLBOX"] = "積木";
 Blockly.Msg["MSG_CODE"] = "程式碼";
+Blockly.Msg["MSG_SERIAL_TOOL"] = "序列埠化工具";
 Blockly.Msg["LANG-SELECTOR"] = "選擇語言";
 Blockly.Msg["BOARD-SELECTOR"] = "選擇開發板";
 Blockly.Msg["COM-SELECTOR"] = "選擇序列埠";

@@ -1,6 +1,7 @@
 var msg = [
 ["msg_toolbox", "innerHTML", Blockly.Msg["MSG_TOOLBOX"]],
 ["msg_code", "innerHTML", Blockly.Msg["MSG_CODE"]],
+["msg_serial_tool", "innerHTML", Blockly.Msg["MSG_SERIAL_TOOL"]],
 ["button_upload", "title", Blockly.Msg["BUTTON_UPLOAD"]],
 ["button_putty", "title", Blockly.Msg["BUTTON_PUTTY"]],
 ["button_code", "title", Blockly.Msg["BUTTON_CODE"]],
