@@ -1,4 +1,19 @@
 <xml xmlns="https://developers.google.com/blockly/xml">
+	<board upload="arduino:avr:uno" name="Arduino Uno"></board>
+	<board upload="arduino:avr:pro" name="Arduino Pro or Pro Mini"></board>
+	<board upload="arduino:avr:nano" name="Arduino Nano"></board>	
+	<board upload="arduino:avr:yun" name="Arduino Yún"></board>
+	<board upload="arduino:avr:diecimila" name="Arduino Duemilanove or Diecimila"></board>
+	<board upload="arduino:avr:mega" name="Arduino Mega or Mega 2560"></board>
+	<board upload="arduino:avr:megaADK" name="Arduino Mega ADK"></board>
+	<board upload="arduino:avr:leonardo" name="Arduino Leonardo"></board>
+	<board upload="arduino:avr:leonardoeth" name="Arduino Leonardo ETH"></board>
+	<board upload="arduino:avr:micro" name="Arduino Micro"></board>
+	<board upload="arduino:avr:esplora" name="Arduino Esplora"></board>
+	<board upload="arduino:avr:mini" name="Arduino Mini"></board>
+	<board upload="arduino:avr:ethernet" name="Arduino Ethernet"></board>
+	<board upload="arduino:avr:fio" name="Arduino Fio"></board>
+	<board upload="arduino:avr:bt" name="Arduino BT"></board>
 	<board upload="LinkIt:linkit_rtos:linkit_7697" name="LinkIt 7697"></board>
 	<board upload="LinkIt:avr:smart7688" name="LinkIt Smart 7688 Duo"></board>	
 	<board upload="esp32:esp32:esp32" name="ESP32 Dev Module"></board>
@@ -26,22 +41,7 @@
 	<board upload="esp32-bluepad32:esp32:esp32" name="ESP32 Dev Module(BP32)"></board>
 	<board upload="esp32-bluepad32:esp32:esp32wrover" name="ESP32 Wrover Module(BP32)"></board>
 	<board upload="esp32-bluepad32:esp32:esp32cam" name="AI Thinker ESP32-CAM(BP32)"></board>
-  <board upload="realtek:AmebaPro2:Ameba_AMB82-MINI" name="AMB82-MINI"></board>
-	<board upload="arduino:avr:uno" name="Arduino Uno"></board>
-	<board upload="arduino:avr:pro" name="Arduino Pro or Pro Mini"></board>
-	<board upload="arduino:avr:nano" name="Arduino Nano"></board>	
-	<board upload="arduino:avr:yun" name="Arduino Yún"></board>
-	<board upload="arduino:avr:diecimila" name="Arduino Duemilanove or Diecimila"></board>
-	<board upload="arduino:avr:mega" name="Arduino Mega or Mega 2560"></board>
-	<board upload="arduino:avr:megaADK" name="Arduino Mega ADK"></board>
-	<board upload="arduino:avr:leonardo" name="Arduino Leonardo"></board>
-	<board upload="arduino:avr:leonardoeth" name="Arduino Leonardo ETH"></board>
-	<board upload="arduino:avr:micro" name="Arduino Micro"></board>
-	<board upload="arduino:avr:esplora" name="Arduino Esplora"></board>
-	<board upload="arduino:avr:mini" name="Arduino Mini"></board>
-	<board upload="arduino:avr:ethernet" name="Arduino Ethernet"></board>
-	<board upload="arduino:avr:fio" name="Arduino Fio"></board>
-	<board upload="arduino:avr:bt" name="Arduino BT"></board>
+    <board upload="realtek:AmebaPro2:Ameba_AMB82-MINI" name="AMB82-MINI"></board>
 	<board upload="arduino:avr:LilyPadUSB" name="LilyPad Arduino USB"></board>
 	<board upload="arduino:avr:lilypad" name="LilyPad Arduino"></board>
 	<board upload="arduino:avr:atmegang" name="Arduino NG or older"></board>
