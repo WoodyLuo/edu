@@ -360,6 +360,12 @@ document.addEventListener('DOMContentLoaded', function() {
 		}
 	}
 	
+	//下載積木圖片
+	document.getElementById('button_blockly_to_png').onclick = function (event) {
+		Blockly.downloadScreenshot(Blockly.getMainWorkspace());
+		event.preventDefault();
+	}
+
 	//工具箱目錄顯示選單
 	document.getElementById('button_toolbox').onclick = function () {
 		toolboxCategory();
@@ -939,7 +945,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		if (typeof nw !== "undefined")
 			nw.Shell.openExternal("http://127.0.0.1:3000/WebMQTT.html")
 		else
-			window.open("https://fustyles.github.io/webduino/mqtt_basic_page.html")
+			window.open("https://woodyluo.github.io/edu/blocklyduino/mqtt_basic_page.html")
 	}); 	
 	
 	//切換語言
