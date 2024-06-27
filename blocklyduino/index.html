@@ -49,45 +49,19 @@ SPDX-License-Identifier: Apache-2.0
 
 <main id="main" class="has-tabs" >
     <!-- PAGE TABS -->
-	<div style="background-color:#49801f">			
+	<div style="display: flex; background-color:#49801f; text-align: center; align-items: center;" >
+	<div style="height: 50px;">			
 		<a href="https://www.mediatekfoundation.org/" target="_blank" class="brand-logo">
 			<span>　</span>
 			<img src="./media/icon_128.png" style="height: 35px;margin-right: 20px;vertical-align: middle;" title="Hi!">
 			<span style="font-size: 30px; color:white; vertical-align: bottom;" title="臺北市私立靜心高級中學 生活科技 羅文成">Blocklyduino</span>
 			<span style="font-size: 1.0rem; color:white; vertical-align: bottom;" title="臺北市私立靜心高級中學 生活科技 羅文成">CHJHS</span>
 		</a>
-	</div>	
-	<table>	
-		<tr>
-			<td style="height:20px !important; width: calc(100vw - 1010px)">
-				<ul id="tabs">
-					<li><a id="msg_toolbox" onclick="displayTab('category_content');">工具箱</a></li>
-					<li><a id="msg_code" onclick="displayTab('code_content');">程式碼</a></li>
-					<li><a id="msg_serial_tool" href="https://woodyluo.github.io/edu/serial/" target="_blank" >序列埠化工具</a></li>
-				</ul>
-				
-			</td>
-			<td style="height:20px !important; width: 620px">
-			</td>				
-			<td style="height:20px !important;">
-				<ul id="tabs">
-					<a href="#" id="button_code" title="Arduino Code"><i class="small material-icons">dvr</i></a>
-					<a href="#" id="button_reset" title="Reset workspace"><i class="small material-icons">create</i></a>
-					<a href="#" id="button_open_xml" title="Open xml file"><i class="small material-icons">folder_open</i></a>
-					<a href="#" id="button_save_ino" title="Save files"><i class="small material-icons">save</i></a>
-					<a href="#" id="button_blockly_to_png" title="Save blockly code"><i class="small material-icons">image</i></a>
-					<a href="#" id="button_toolbox" title="Show/Hide Category Menu"><i class="small material-icons">playlist_add_check</i></a>
-					<a href="#" id="button_addExtensionBlocks" title="Import extension custom blocks"><i class="material-icons">extension</i></a>
-					<a href="#" id="button_addRemoteBlocks" title="Import remote custom blocks"><i class="material-icons">note_add</i></a>
-					<a href="#" id="button_webSerial" title="Web Serial"><i class="small material-icons">usb</i></a>
-					<a href="#" id="button_webBluetooth" title="Web Bluetooth"><i class="small material-icons">bluetooth</i></a>
-					<a href="#" id="button_webMQTT" title="Web MQTT"><i class="small material-icons">router</i></a>
-					<a href="#" id="button_tool" title="Open Developer Tool"><i class="small material-icons">construction</i></a>
-					
-					<i>　</i>
-				    <i class="material-icons">settings_applications</i>
-					<i style="text-align: center;line-height: 50px;-align: middle;">
-						<select id="board-selector" style="height:24px;font-size:18px" onclick="selectBoard(this.value)">
+	</div>
+	<div style="background-color:#49801f; position: absolute; right: 0px; vertical-align: center; height: 50px;">			
+		<i style="color: #FFFFFF;" class="material-icons">settings_applications</i>
+					<i style="text-align: center;">
+						<select id="board-selector" style="font-size:16px" onclick="selectBoard(this.value)">
 						</select>
 						<script>
 							$.ajax({
@@ -116,12 +90,42 @@ SPDX-License-Identifier: Apache-2.0
 						</script>						
 					</i>
 					<i>　</i>					
-				    <i class="material-icons">language</i>
-					<i style="text-align: center;line-height: 50px;-align: middle;">
-						<select id="lang-selector" style="height:24px;font-size:18px">
+				    <i style="color: #FFFFFF;" class="material-icons">language</i>
+					<i style="text-align: center;">
+						<select id="lang-selector" style="font-size:16px;">
 						</select>
 					</i>
 					<i>　</i>
+	</div>
+	</div>
+	<table>	
+		<tr>
+			<td style="height:20px !important; width: calc(100vw - 1010px)">
+				<ul id="tabs">
+					<li><a id="msg_toolbox" onclick="displayTab('category_content');">工具箱</a></li>
+					<li><a id="msg_code" onclick="displayTab('code_content');">程式碼</a></li>
+					<li><a id="msg_serial_tool" href="https://woodyluo.github.io/edu/serial/" target="_blank" >序列埠化工具</a></li>
+				</ul>
+				
+			</td>
+			<td style="height:20px !important; width: 620px">
+			</td>				
+			<td style="height:20px !important;">
+				<ul id="tabs">
+					<a href="#" id="button_code" title="Arduino Code"><i class="small material-icons">dvr</i></a>
+					<a href="#" id="button_reset" title="Reset workspace"><i class="small material-icons">create</i></a>
+					<a href="#" id="button_open_xml" title="Open xml file"><i class="small material-icons">folder_open</i></a>
+					<a href="#" id="button_save_ino" title="Save files"><i class="small material-icons">save</i></a>
+					<a href="#" id="button_blockly_to_png" title="Save blockly code"><i class="small material-icons">image</i></a>
+					<a href="#" id="button_toolbox" title="Show/Hide Category Menu"><i class="small material-icons">playlist_add_check</i></a>
+					<a href="#" id="button_addExtensionBlocks" title="Import extension custom blocks"><i class="material-icons">extension</i></a>
+					<a href="#" id="button_addRemoteBlocks" title="Import remote custom blocks"><i class="material-icons">note_add</i></a>
+					<a href="#" id="button_webSerial" title="Web Serial"><i class="small material-icons">usb</i></a>
+					<a href="#" id="button_webBluetooth" title="Web Bluetooth"><i class="small material-icons">bluetooth</i></a>
+					<a href="#" id="button_webMQTT" title="Web MQTT"><i class="small material-icons">router</i></a>
+					<a href="#" id="button_tool" title="Open Developer Tool"><i class="small material-icons">construction</i></a>
+					
+					
 					
 				</ul>
 			</td>
