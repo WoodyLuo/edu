@@ -374,16 +374,17 @@ document.addEventListener('DOMContentLoaded', function() {
 		}else if(video_index==="02"){
 			window.open("https://www.youtube.com/watch?v=aah9CpYC8Ts&list=PLNcm85tntq9B6DKN8o_NECZQ-UObxP-10&index=3", "_blank");
 		}else if(video_index==="03"){
-			window.open("https://www.youtube.com/watch?v=aah9CpYC8Ts&list=PLNcm85tntq9B6DKN8o_NECZQ-UObxP-10&index=3", "_blank");
+			window.open("https://www.youtube.com/watch?v=GhyL5mIHThk&list=PLNcm85tntq9B6DKN8o_NECZQ-UObxP-10&index=4", "_blank");
 		}else if(video_index==="04"){
-			window.open("https://www.youtube.com/watch?v=aah9CpYC8Ts&list=PLNcm85tntq9B6DKN8o_NECZQ-UObxP-10&index=3", "_blank");
+			window.open("https://www.youtube.com/watch?v=aeFPFM2hXnY&list=PLNcm85tntq9B6DKN8o_NECZQ-UObxP-10&index=5", "_blank");
 		}else if(video_index==="05"){
-			window.open("https://www.youtube.com/watch?v=aah9CpYC8Ts&list=PLNcm85tntq9B6DKN8o_NECZQ-UObxP-10&index=3", "_blank");
+			window.open("https://www.youtube.com/watch?v=IJxVlH0yVdo&list=PLNcm85tntq9B6DKN8o_NECZQ-UObxP-10&index=6", "_blank");
 		}else if(video_index==="06"){
-			window.open("https://www.youtube.com/watch?v=aah9CpYC8Ts&list=PLNcm85tntq9B6DKN8o_NECZQ-UObxP-10&index=3", "_blank");
+			window.open("https://www.youtube.com/watch?v=dPMxk4755AA&list=PLNcm85tntq9B6DKN8o_NECZQ-UObxP-10&index=7", "_blank");
 		}else if(video_index==="07"){
-			window.open("https://www.youtube.com/watch?v=aah9CpYC8Ts&list=PLNcm85tntq9B6DKN8o_NECZQ-UObxP-10&index=3", "_blank");
+			window.open("https://www.youtube.com/watch?v=lmUxZE-iMo8&list=PLNcm85tntq9B6DKN8o_NECZQ-UObxP-10&index=8", "_blank");
 		}
+		this.selectedIndex = 0;
 	};
 
 	//下載積木圖片
