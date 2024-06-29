@@ -360,6 +360,32 @@ document.addEventListener('DOMContentLoaded', function() {
 		}
 	}
 	
+	//Youtube教學影片
+	document.getElementById("tutorial-selector").onclick = function(event){
+		var video_index = NaN;
+		if(this.selectedIndex!=-1){
+			video_index = this.options[this.selectedIndex].value;
+			console.log(video_index);
+		}
+		if(video_index==="00"){
+			window.open("https://www.youtube.com/watch?v=bptFno2kj38&list=PLNcm85tntq9B6DKN8o_NECZQ-UObxP-10&index=2", "_blank");
+		}else if(video_index==="01"){
+			window.open("https://www.youtube.com/watch?v=6tIuGN-mmIY&list=PLNcm85tntq9B6DKN8o_NECZQ-UObxP-10&index=1", "_blank");
+		}else if(video_index==="02"){
+			window.open("https://www.youtube.com/watch?v=aah9CpYC8Ts&list=PLNcm85tntq9B6DKN8o_NECZQ-UObxP-10&index=3", "_blank");
+		}else if(video_index==="03"){
+			window.open("https://www.youtube.com/watch?v=aah9CpYC8Ts&list=PLNcm85tntq9B6DKN8o_NECZQ-UObxP-10&index=3", "_blank");
+		}else if(video_index==="04"){
+			window.open("https://www.youtube.com/watch?v=aah9CpYC8Ts&list=PLNcm85tntq9B6DKN8o_NECZQ-UObxP-10&index=3", "_blank");
+		}else if(video_index==="05"){
+			window.open("https://www.youtube.com/watch?v=aah9CpYC8Ts&list=PLNcm85tntq9B6DKN8o_NECZQ-UObxP-10&index=3", "_blank");
+		}else if(video_index==="06"){
+			window.open("https://www.youtube.com/watch?v=aah9CpYC8Ts&list=PLNcm85tntq9B6DKN8o_NECZQ-UObxP-10&index=3", "_blank");
+		}else if(video_index==="07"){
+			window.open("https://www.youtube.com/watch?v=aah9CpYC8Ts&list=PLNcm85tntq9B6DKN8o_NECZQ-UObxP-10&index=3", "_blank");
+		}
+	};
+
 	//下載積木圖片
 	document.getElementById('button_blockly_to_png').onclick = function (event) {
 		Blockly.downloadScreenshot(Blockly.getMainWorkspace());
@@ -1030,7 +1056,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	}	
 });	
 
-function searchBlocks() {
+function searchBlocks(event) {
 	var opt = {
 		dialogClass: "dlg-no-close",
 		draggable: true,			

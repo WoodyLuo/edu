@@ -2587,6 +2587,16 @@ Blockly.Msg["BLUETOOTH_CLEARTEXT"] = "清除訊息";
 Blockly.Msg["UUID_SERVICE_TITLE"] = "Service UUID";
 Blockly.Msg["UUID_TX_TITLE"] = "TX UUID";
 Blockly.Msg["UUID_RX_TITLE"] = "RX UUID";
+Blockly.Msg["TUTORIAL_TITLE"] = "Youtube教學影片";
+Blockly.Msg["TUTORIAL_00"] = "序列埠繪圖器教學";
+Blockly.Msg["TUTORIAL_01"] = "Blocklyduino下載教學";
+Blockly.Msg["TUTORIAL_02"] = "Arduino Uno介紹";
+Blockly.Msg["TUTORIAL_03"] = "Arduino Uno新手練習";
+Blockly.Msg["TUTORIAL_04"] = "Arduino Uno基礎電學知識";
+Blockly.Msg["TUTORIAL_05"] = "LED電路";
+Blockly.Msg["TUTORIAL_06"] = "按鈕電路";
+Blockly.Msg["TUTORIAL_07"] = "可變電阻與類比腳位控制";
+
 
 Blockly.Msg["MYPICKPLACEBLOCK_PICKPLACE_ENABLED"] = "啟用 選取/置放 積木";
 Blockly.Msg["MYPICKPLACEBLOCK_PICKPLACE_DISABLED"] = "停用 選取/置放 積木";

@@ -43,7 +43,7 @@ SPDX-License-Identifier: Apache-2.0
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery-ui.js"></script>	
 	<script src="js/jquery.ui.touch-punch.min.js"></script>		
-	<script src="js/arduino-web-uploader.js"></script>		
+	<script src="js/arduino-web-uploader.js"></script>	
 </head>
 <body class="root">
 
@@ -59,43 +59,53 @@ SPDX-License-Identifier: Apache-2.0
 		</a>
 	</div>
 	<div style="background-color:#49801f; position: absolute; right: 0px; vertical-align: center; height: 50px;">			
-		<i style="color: #FFFFFF;" class="material-icons">settings_applications</i>
-					<i style="text-align: center;">
-						<select id="board-selector" style="font-size:16px" onclick="selectBoard(this.value)">
-						</select>
-						<script>
-							$.ajax({
-								type: "GET" ,
-								url: "board/board_F2.xml" ,
-								dataType: "xml",
-								timeout: 3000,
-								async: false,
-								success: function(xml, textStatus) {
-									var dropdown = document.getElementById('board-selector');
-									if (xml.firstChild) {
-										var Nodes = xml.firstChild.childNodes;
-										if (Nodes.length>0) {
-											for (var i=0;i<Nodes.length;i++){
-												if (Nodes[i].nodeName!="#text") {
-													dropdown.add(new Option(Nodes[i].getAttribute("name"), Nodes[i].getAttribute("upload")));
-												}							
-											}
-										}
-									}
-								},
-								error: function (jqXHR, textStatus, errorThrown) {
-									console.log(errorThrown);
-								}
-							});
-						</script>						
-					</i>
-					<i>　</i>					
-				    <i style="color: #FFFFFF;" class="material-icons">language</i>
-					<i style="text-align: center;">
-						<select id="lang-selector" style="font-size:16px;">
-						</select>
-					</i>
-					<i>　</i>
+		<i style="color: #FFFFFF;" class="material-icons">media_link</i>
+		<select id="tutorial-selector" style="vertical-align: 8px; font-size:16px; padding: 2px;" title="臺北市私立靜心高級中學 生活科技 羅文成">
+			<option id="tutorial-title" value="">Youtube教學影片</option>
+			<option id="tutorial-00" value="00">序列埠繪圖器教學</option>
+			<option id="tutorial-01" value="01">Blocklyduino下載教學</option>
+			<option id="tutorial-02" value="02">Arduino Uno介紹</option>
+			<option id="tutorial-03" value="03">Arduino Uno新手練習</option>
+			<option id="tutorial-04" value="04">Arduino Uno基礎電學知識</option>
+			<option id="tutorial-05" value="05">LED電路</option>
+			<option id="tutorial-06" value="06">按鈕電路</option>
+			<option id="tutorial-07" value="07">可變電阻與類比腳位控制</option>
+		</select>
+		<i>　</i>
+		<i style="color: #FFFFFF;" class="material-icons">settings_applications</i>		
+		<select id="board-selector" style="vertical-align: 8px; font-size:16px; padding: 2px;" onclick="selectBoard(this.value)">
+		</select>
+		<script>
+			$.ajax({
+				type: "GET" ,
+				url: "board/board_F2.xml" ,
+				dataType: "xml",
+				timeout: 3000,
+				async: false,
+				success: function(xml, textStatus) {
+					var dropdown = document.getElementById('board-selector');
+					if (xml.firstChild) {
+						var Nodes = xml.firstChild.childNodes;
+						if (Nodes.length>0) {
+							for (var i=0;i<Nodes.length;i++){
+								if (Nodes[i].nodeName!="#text") {
+									dropdown.add(new Option(Nodes[i].getAttribute("name"), Nodes[i].getAttribute("upload")));
+								}							
+							}
+						}
+					}
+				},
+				error: function (jqXHR, textStatus, errorThrown) {
+					console.log(errorThrown);
+				}
+			});
+		</script>						
+		
+		<i>　</i>					
+		<i style="color: #FFFFFF;" class="material-icons">language</i>
+		<select id="lang-selector" style="vertical-align: 8px; font-size:16px; padding: 2px;">
+		</select>
+		<i>　</i>
 	</div>
 	</div>
 	<table>	
@@ -261,6 +271,7 @@ SPDX-License-Identifier: Apache-2.0
 <script src="vs/editor/editor.main.nls.js"></script>
 <script src="vs/editor/editor.main.js"></script>
 <script src="vs/arduino.js"></script>
+
 
 </body>
 </html>

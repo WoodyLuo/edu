@@ -2283,6 +2283,16 @@ Blockly.Msg["BLUETOOTH_CLEARTEXT"] = "Clear message";
 Blockly.Msg["UUID_SERVICE_TITLE"] = "Service UUID";
 Blockly.Msg["UUID_TX_TITLE"] = "TX UUID";
 Blockly.Msg["UUID_RX_TITLE"] = "RX UUID";
+Blockly.Msg["TUTORIAL_TITLE"] = "YouTube Tutorial Video";
+Blockly.Msg["TUTORIAL_00"] = "Serial Plotter Tutorial";
+Blockly.Msg["TUTORIAL_01"] = "Blocklyduino Download Tutorial";
+Blockly.Msg["TUTORIAL_02"] = "Introduction to Arduino Uno";
+Blockly.Msg["TUTORIAL_03"] = "Arduino Uno Beginner Exercises";
+Blockly.Msg["TUTORIAL_04"] = "Basic Electrical Knowledge for Arduino Uno";
+Blockly.Msg["TUTORIAL_05"] = "LED Circuit";
+Blockly.Msg["TUTORIAL_06"] = "Push Button Circuit";
+Blockly.Msg["TUTORIAL_07"] = "Protentiometer and Analog Pin Control";
+
 
 Blockly.Msg["MYPICKPLACEBLOCK_PICKPLACE_ENABLED"] = "Enable pick/place block";
 Blockly.Msg["MYPICKPLACEBLOCK_PICKPLACE_DISABLED"] = "Disable pick/place block";

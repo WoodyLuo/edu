@@ -35,5 +35,14 @@ var msg = [
 ["lang-selector", "title", Blockly.Msg["LANG-SELECTOR"]],
 ["board-selector", "title", Blockly.Msg["BOARD-SELECTOR"]],
 ["com-selector", "title", Blockly.Msg["COM-SELECTOR"]],
-["baudrate_title", "innerHTML", Blockly.Msg["BAUDRATE_TITLE"]]
+["baudrate_title", "innerHTML", Blockly.Msg["BAUDRATE_TITLE"]],
+["tutorial-title", "innerHTML", Blockly.Msg["TUTORIAL_TITLE"]],
+["tutorial-00", "innerHTML", Blockly.Msg["TUTORIAL_00"]],
+["tutorial-01", "innerHTML", Blockly.Msg["TUTORIAL_01"]],
+["tutorial-02", "innerHTML", Blockly.Msg["TUTORIAL_02"]],
+["tutorial-03", "innerHTML", Blockly.Msg["TUTORIAL_03"]],
+["tutorial-04", "innerHTML", Blockly.Msg["TUTORIAL_04"]],
+["tutorial-05", "innerHTML", Blockly.Msg["TUTORIAL_05"]],
+["tutorial-06", "innerHTML", Blockly.Msg["TUTORIAL_06"]],
+["tutorial-07", "innerHTML", Blockly.Msg["TUTORIAL_07"]]
 ];
