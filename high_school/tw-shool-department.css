@@ -1,0 +1,63 @@
+.selected-department-panel {
+  margin-top: 24px;
+}
+
+.department-filter-row .form-control,
+.department-filter-row .form-select {
+  min-height: 44px;
+}
+
+.department-table-wrap {
+  max-height: 360px;
+  overflow: auto;
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+}
+
+.department-list-table {
+  margin-bottom: 0;
+  min-width: 760px;
+}
+
+.department-list-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: #343a40 !important;
+  color: #fff !important;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+}
+
+.department-list-table tbody td {
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.department-row {
+  cursor: pointer;
+}
+
+.department-row:hover {
+  outline: 1px solid #cfe2ff;
+}
+
+.department-row.is-selected > td {
+  background: #e7f1ff !important;
+}
+
+.department-group-name,
+.department-dept-name {
+  font-weight: 600;
+}
+
+.selected-department-empty {
+  min-height: 120px;
+}
+
+@media (max-width: 767.98px) {
+  .department-list-table {
+    min-width: 640px;
+  }
+}

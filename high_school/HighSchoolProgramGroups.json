@@ -1,0 +1,2606 @@
+[
+  {
+    "program_type": "普通型高中",
+    "group_code": "11",
+    "group_name": "學術群",
+    "dept_code": "101",
+    "dept_name": "普通科"
+  },
+  {
+    "program_type": "普通型高中",
+    "group_code": "11",
+    "group_name": "學術群",
+    "dept_code": "102",
+    "dept_name": "音樂班"
+  },
+  {
+    "program_type": "普通型高中",
+    "group_code": "11",
+    "group_name": "學術群",
+    "dept_code": "103",
+    "dept_name": "美術班"
+  },
+  {
+    "program_type": "普通型高中",
+    "group_code": "11",
+    "group_name": "學術群",
+    "dept_code": "104",
+    "dept_name": "舞蹈班"
+  },
+  {
+    "program_type": "普通型高中",
+    "group_code": "11",
+    "group_name": "學術群",
+    "dept_code": "105",
+    "dept_name": "體育班"
+  },
+  {
+    "program_type": "普通型高中",
+    "group_code": "11",
+    "group_name": "學術群",
+    "dept_code": "106",
+    "dept_name": "數理資優班"
+  },
+  {
+    "program_type": "普通型高中",
+    "group_code": "11",
+    "group_name": "學術群",
+    "dept_code": "107",
+    "dept_name": "語文資優班"
+  },
+  {
+    "program_type": "普通型高中",
+    "group_code": "11",
+    "group_name": "學術群",
+    "dept_code": "108",
+    "dept_name": "科學班"
+  },
+  {
+    "program_type": "普通型高中",
+    "group_code": "11",
+    "group_name": "學術群",
+    "dept_code": "111",
+    "dept_name": "原住民藝能班"
+  },
+  {
+    "program_type": "普通型高中",
+    "group_code": "11",
+    "group_name": "學術群",
+    "dept_code": "121",
+    "dept_name": "雙語部"
+  },
+  {
+    "program_type": "普通型高中",
+    "group_code": "11",
+    "group_name": "學術群",
+    "dept_code": "122",
+    "dept_name": "戲劇班"
+  },
+  {
+    "program_type": "普通型高中",
+    "group_code": "11",
+    "group_name": "學術群",
+    "dept_code": "123",
+    "dept_name": "人文與社會科學資優班"
+  },
+  {
+    "program_type": "普通型高中",
+    "group_code": "11",
+    "group_name": "學術群",
+    "dept_code": "124",
+    "dept_name": "創造能力資優班"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "301",
+    "dept_name": "機械科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "302",
+    "dept_name": "鑄造科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "304",
+    "dept_name": "板金科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "331",
+    "dept_name": "機工科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "332",
+    "dept_name": "機械木模科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "337",
+    "dept_name": "配管科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "338",
+    "dept_name": "模具科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "360",
+    "dept_name": "機電科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "363",
+    "dept_name": "製圖科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "371",
+    "dept_name": "電腦繪圖科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "372",
+    "dept_name": "生物產業機電科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "374",
+    "dept_name": "電腦機械製圖科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "22",
+    "group_name": "動力機械群",
+    "dept_code": "205",
+    "dept_name": "農業機械科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "22",
+    "group_name": "動力機械群",
+    "dept_code": "303",
+    "dept_name": "汽車科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "22",
+    "group_name": "動力機械群",
+    "dept_code": "335",
+    "dept_name": "汽車修護科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "22",
+    "group_name": "動力機械群",
+    "dept_code": "364",
+    "dept_name": "重機科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "22",
+    "group_name": "動力機械群",
+    "dept_code": "381",
+    "dept_name": "飛機修護科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "22",
+    "group_name": "動力機械群",
+    "dept_code": "392",
+    "dept_name": "動力機械科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "305",
+    "dept_name": "資訊科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "306",
+    "dept_name": "電子科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "307",
+    "dept_name": "控制科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "308",
+    "dept_name": "電機科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "309",
+    "dept_name": "冷凍空調科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "384",
+    "dept_name": "航空電子科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "703",
+    "dept_name": "電子通信科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "24",
+    "group_name": "化工群",
+    "dept_code": "315",
+    "dept_name": "化工科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "24",
+    "group_name": "化工群",
+    "dept_code": "319",
+    "dept_name": "紡織科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "24",
+    "group_name": "化工群",
+    "dept_code": "352",
+    "dept_name": "染整科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "24",
+    "group_name": "化工群",
+    "dept_code": "367",
+    "dept_name": "環境檢驗科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "25",
+    "group_name": "土木與建築群",
+    "dept_code": "311",
+    "dept_name": "建築科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "25",
+    "group_name": "土木與建築群",
+    "dept_code": "365",
+    "dept_name": "土木科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "25",
+    "group_name": "土木與建築群",
+    "dept_code": "397",
+    "dept_name": "消防工程科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "215",
+    "dept_name": "農產行銷科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "401",
+    "dept_name": "商業經營科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "402",
+    "dept_name": "國際貿易科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "403",
+    "dept_name": "會計事務科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "404",
+    "dept_name": "資料處理科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "405",
+    "dept_name": "文書事務科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "418",
+    "dept_name": "不動產事務科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "425",
+    "dept_name": "電子商務科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "426",
+    "dept_name": "流通管理科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "706",
+    "dept_name": "水產經營科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "717",
+    "dept_name": "航運管理科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "27",
+    "group_name": "外語群",
+    "dept_code": "419",
+    "dept_name": "應用外語科(英文組)"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "27",
+    "group_name": "外語群",
+    "dept_code": "421",
+    "dept_name": "應用外語科(日文組)"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "312",
+    "dept_name": "家具木工科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "316",
+    "dept_name": "美工科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "318",
+    "dept_name": "美術工藝科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "361",
+    "dept_name": "陶瓷工程科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "366",
+    "dept_name": "室內空間設計科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "373",
+    "dept_name": "圖文傳播科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "394",
+    "dept_name": "金屬工藝科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "399",
+    "dept_name": "家具設計科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "406",
+    "dept_name": "廣告設計科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "430",
+    "dept_name": "多媒體設計科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "431",
+    "dept_name": "多媒體應用科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "512",
+    "dept_name": "室內設計科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "29",
+    "group_name": "農業群",
+    "dept_code": "201",
+    "dept_name": "農場經營科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "29",
+    "group_name": "農業群",
+    "dept_code": "202",
+    "dept_name": "園藝科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "29",
+    "group_name": "農業群",
+    "dept_code": "204",
+    "dept_name": "森林科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "29",
+    "group_name": "農業群",
+    "dept_code": "214",
+    "dept_name": "野生動物保育科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "29",
+    "group_name": "農業群",
+    "dept_code": "216",
+    "dept_name": "造園科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "29",
+    "group_name": "農業群",
+    "dept_code": "217",
+    "dept_name": "畜產保健科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "30",
+    "group_name": "食品群",
+    "dept_code": "206",
+    "dept_name": "食品加工科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "31",
+    "group_name": "食品群",
+    "dept_code": "505",
+    "dept_name": "食品科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "32",
+    "group_name": "食品群",
+    "dept_code": "517",
+    "dept_name": "烘培科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "33",
+    "group_name": "食品群",
+    "dept_code": "718",
+    "dept_name": "水產食品科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "31",
+    "group_name": "家政群",
+    "dept_code": "501",
+    "dept_name": "家政科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "31",
+    "group_name": "家政群",
+    "dept_code": "502",
+    "dept_name": "服裝科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "31",
+    "group_name": "家政群",
+    "dept_code": "503",
+    "dept_name": "幼兒保育科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "31",
+    "group_name": "家政群",
+    "dept_code": "504",
+    "dept_name": "美容科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "31",
+    "group_name": "家政群",
+    "dept_code": "513",
+    "dept_name": "時尚模特兒科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "31",
+    "group_name": "家政群",
+    "dept_code": "514",
+    "dept_name": "照顧服務科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "31",
+    "group_name": "家政群",
+    "dept_code": "515",
+    "dept_name": "流行服飾科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "31",
+    "group_name": "家政群",
+    "dept_code": "516",
+    "dept_name": "時尚造型科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "32",
+    "group_name": "餐旅群",
+    "dept_code": "407",
+    "dept_name": "觀光事業科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "32",
+    "group_name": "餐旅群",
+    "dept_code": "408",
+    "dept_name": "餐飲管理科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "32",
+    "group_name": "餐旅群",
+    "dept_code": "424",
+    "dept_name": "餐飲服務科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "32",
+    "group_name": "餐旅群",
+    "dept_code": "427",
+    "dept_name": "餐旅管理科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "33",
+    "group_name": "水產群",
+    "dept_code": "701",
+    "dept_name": "漁業科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "33",
+    "group_name": "水產群",
+    "dept_code": "705",
+    "dept_name": "水產養殖科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "34",
+    "group_name": "海事群",
+    "dept_code": "702",
+    "dept_name": "輪機科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "34",
+    "group_name": "海事群",
+    "dept_code": "708",
+    "dept_name": "航海科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "35",
+    "group_name": "藝術群",
+    "dept_code": "801",
+    "dept_name": "戲劇科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "35",
+    "group_name": "藝術群",
+    "dept_code": "802",
+    "dept_name": "音樂科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "35",
+    "group_name": "藝術群",
+    "dept_code": "803",
+    "dept_name": "舞蹈科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "35",
+    "group_name": "藝術群",
+    "dept_code": "804",
+    "dept_name": "美術科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "35",
+    "group_name": "藝術群",
+    "dept_code": "806",
+    "dept_name": "影劇科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "35",
+    "group_name": "藝術群",
+    "dept_code": "807",
+    "dept_name": "西樂科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "35",
+    "group_name": "藝術群",
+    "dept_code": "808",
+    "dept_name": "國樂科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "35",
+    "group_name": "藝術群",
+    "dept_code": "809",
+    "dept_name": "歌仔戲科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "35",
+    "group_name": "藝術群",
+    "dept_code": "813",
+    "dept_name": "劇場藝術科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "35",
+    "group_name": "藝術群",
+    "dept_code": "816",
+    "dept_name": "電影電視科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "35",
+    "group_name": "藝術群",
+    "dept_code": "817",
+    "dept_name": "表演藝術科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "35",
+    "group_name": "藝術群",
+    "dept_code": "820",
+    "dept_name": "多媒體動畫科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "35",
+    "group_name": "藝術群",
+    "dept_code": "821",
+    "dept_name": "客家戲科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "35",
+    "group_name": "藝術群",
+    "dept_code": "822",
+    "dept_name": "時尚工藝科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "35",
+    "group_name": "藝術群",
+    "dept_code": "823",
+    "dept_name": "戲曲音樂科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "35",
+    "group_name": "藝術群",
+    "dept_code": "824",
+    "dept_name": "京劇科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "35",
+    "group_name": "藝術群",
+    "dept_code": "825",
+    "dept_name": "民俗技藝科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "41",
+    "group_name": "綜合",
+    "dept_code": "901",
+    "dept_name": "綜合職能科"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "11",
+    "group_name": "學術群",
+    "dept_code": "109",
+    "dept_name": "學術社會、學術自然"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "11",
+    "group_name": "學術群",
+    "dept_code": "196",
+    "dept_name": "1年級不分群"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "11",
+    "group_name": "學術群",
+    "dept_code": "197",
+    "dept_name": "學術社會學程"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "11",
+    "group_name": "學術群",
+    "dept_code": "198",
+    "dept_name": "學術自然學程"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "A01",
+    "dept_name": "機械技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "A02",
+    "dept_name": "製圖"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "A03",
+    "dept_name": "製圖技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "A04",
+    "dept_name": "機械製圖"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "A05",
+    "dept_name": "電腦製圖"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "A06",
+    "dept_name": "農業機械技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "A07",
+    "dept_name": "電腦繪圖"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "A08",
+    "dept_name": "電腦輔助機械"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "A09",
+    "dept_name": "機械"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "A10",
+    "dept_name": "機械工程"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "A11",
+    "dept_name": "機械木模技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "A12",
+    "dept_name": "鑄造技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "A13",
+    "dept_name": "生物產業機電"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "A14",
+    "dept_name": "機械木模"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "22",
+    "group_name": "動力機械群",
+    "dept_code": "B01",
+    "dept_name": "汽車技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "22",
+    "group_name": "動力機械群",
+    "dept_code": "B02",
+    "dept_name": "汽車修護"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "22",
+    "group_name": "動力機械群",
+    "dept_code": "B03",
+    "dept_name": "航空技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "22",
+    "group_name": "動力機械群",
+    "dept_code": "B04",
+    "dept_name": "飛機修護"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "22",
+    "group_name": "動力機械群",
+    "dept_code": "B05",
+    "dept_name": "工程機械技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "22",
+    "group_name": "動力機械群",
+    "dept_code": "B06",
+    "dept_name": "汽機車技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "22",
+    "group_name": "動力機械群",
+    "dept_code": "B07",
+    "dept_name": "汽車"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "22",
+    "group_name": "動力機械群",
+    "dept_code": "B08",
+    "dept_name": "電動電子"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "22",
+    "group_name": "動力機械群",
+    "dept_code": "B09",
+    "dept_name": "動力機械"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "22",
+    "group_name": "動力機械群",
+    "dept_code": "B10",
+    "dept_name": "動力機械技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "22",
+    "group_name": "動力機械群",
+    "dept_code": "B11",
+    "dept_name": "工程機械"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "C01",
+    "dept_name": "電子技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "C02",
+    "dept_name": "資訊技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "C03",
+    "dept_name": "電機技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "C04",
+    "dept_name": "機電技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "C05",
+    "dept_name": "冷凍空調"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "C06",
+    "dept_name": "電器冷凍"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "C07",
+    "dept_name": "航空電子技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "C08",
+    "dept_name": "電腦應用"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "C09",
+    "dept_name": "電腦通訊"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "C10",
+    "dept_name": "資訊"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "C11",
+    "dept_name": "資訊電子"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "C12",
+    "dept_name": "資訊科技"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "C13",
+    "dept_name": "電子"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "C14",
+    "dept_name": "電機"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "C15",
+    "dept_name": "電機工程"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "C16",
+    "dept_name": "機電整合"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "C17",
+    "dept_name": "控制技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "C18",
+    "dept_name": "電機電子技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "C19",
+    "dept_name": "電機電子"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "C20",
+    "dept_name": "控制"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "24",
+    "group_name": "化工群",
+    "dept_code": "D01",
+    "dept_name": "化工技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "24",
+    "group_name": "化工群",
+    "dept_code": "D02",
+    "dept_name": "環境檢驗技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "24",
+    "group_name": "化工群",
+    "dept_code": "D04",
+    "dept_name": "化工"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "24",
+    "group_name": "化工群",
+    "dept_code": "D05",
+    "dept_name": "衛生化工"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "25",
+    "group_name": "土木與建築群",
+    "dept_code": "E01",
+    "dept_name": "建築技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "25",
+    "group_name": "土木與建築群",
+    "dept_code": "E02",
+    "dept_name": "營建技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "25",
+    "group_name": "土木與建築群",
+    "dept_code": "E03",
+    "dept_name": "土木測量"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "25",
+    "group_name": "土木與建築群",
+    "dept_code": "E04",
+    "dept_name": "建築製圖"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "25",
+    "group_name": "土木與建築群",
+    "dept_code": "E06",
+    "dept_name": "建築"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "25",
+    "group_name": "土木與建築群",
+    "dept_code": "E07",
+    "dept_name": "土木建築技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "F01",
+    "dept_name": "資訊應用"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "F02",
+    "dept_name": "會計事務"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "F03",
+    "dept_name": "國際貿易"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "F04",
+    "dept_name": "商業服務"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "F05",
+    "dept_name": "商業經營"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "F06",
+    "dept_name": "流通服務"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "F07",
+    "dept_name": "物流服務"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "F08",
+    "dept_name": "資料處理"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "F09",
+    "dept_name": "電子商務"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "F10",
+    "dept_name": "商業事務"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "F11",
+    "dept_name": "文書事務"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "F12",
+    "dept_name": "商業應用"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "F13",
+    "dept_name": "商業"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "F14",
+    "dept_name": "電腦平面動畫"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "F15",
+    "dept_name": "流通"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "F16",
+    "dept_name": "銀行事務"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "F17",
+    "dept_name": "保險事務"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "F18",
+    "dept_name": "電腦應用"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "F19",
+    "dept_name": "文書處理"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "F20",
+    "dept_name": "會計資訊"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "F22",
+    "dept_name": "商經實務"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "F23",
+    "dept_name": "資訊處理"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "27",
+    "group_name": "外語群",
+    "dept_code": "X01",
+    "dept_name": "應用外語(英語)"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "27",
+    "group_name": "外語群",
+    "dept_code": "X02",
+    "dept_name": "應用日語"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "27",
+    "group_name": "外語群",
+    "dept_code": "X03",
+    "dept_name": "應用德語"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "27",
+    "group_name": "外語群",
+    "dept_code": "X04",
+    "dept_name": "應用法語"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "27",
+    "group_name": "外語群",
+    "dept_code": "X05",
+    "dept_name": "應用外語"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "27",
+    "group_name": "外語群",
+    "dept_code": "X06",
+    "dept_name": "應用外語英文組"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "27",
+    "group_name": "外語群",
+    "dept_code": "X07",
+    "dept_name": "應用外語日文組"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "27",
+    "group_name": "外語群",
+    "dept_code": "X08",
+    "dept_name": "應用外語(英文)"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "27",
+    "group_name": "外語群",
+    "dept_code": "X09",
+    "dept_name": "應用英文"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "27",
+    "group_name": "外語群",
+    "dept_code": "X10",
+    "dept_name": "應用日文"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "27",
+    "group_name": "外語群",
+    "dept_code": "X11",
+    "dept_name": "應用英語"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "V01",
+    "dept_name": "廣告設計"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "V02",
+    "dept_name": "室內設計"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "V03",
+    "dept_name": "美工"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "V04",
+    "dept_name": "多媒體製作"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "V05",
+    "dept_name": "美工電腦設計"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "V06",
+    "dept_name": "美工技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "V07",
+    "dept_name": "商業設計"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "V08",
+    "dept_name": "室內裝潢"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "V09",
+    "dept_name": "家具技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "V10",
+    "dept_name": "設計科技"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "V11",
+    "dept_name": "美術設計"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "V12",
+    "dept_name": "多媒體設計"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "V13",
+    "dept_name": "電腦應用(美工)"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "V14",
+    "dept_name": "圖文傳播"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "V15",
+    "dept_name": "視覺傳達"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "V16",
+    "dept_name": "流行造型設計"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "V17",
+    "dept_name": "空間設計"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "V18",
+    "dept_name": "室內空間設計"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "V19",
+    "dept_name": "造型設計"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "V20",
+    "dept_name": "工藝設計"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "V21",
+    "dept_name": "美工設計"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "V22",
+    "dept_name": "視覺傳達設計"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "29",
+    "group_name": "農業群",
+    "dept_code": "G01",
+    "dept_name": "造園技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "29",
+    "group_name": "農業群",
+    "dept_code": "G02",
+    "dept_name": "園藝技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "29",
+    "group_name": "農業群",
+    "dept_code": "G03",
+    "dept_name": "農園技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "29",
+    "group_name": "農業群",
+    "dept_code": "G04",
+    "dept_name": "畜產技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "29",
+    "group_name": "農業群",
+    "dept_code": "G05",
+    "dept_name": "綜合農業技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "29",
+    "group_name": "農業群",
+    "dept_code": "G06",
+    "dept_name": "精製農業"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "29",
+    "group_name": "農業群",
+    "dept_code": "G07",
+    "dept_name": "農業綜合"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "29",
+    "group_name": "農業群",
+    "dept_code": "G08",
+    "dept_name": "畜產加工"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "29",
+    "group_name": "農業群",
+    "dept_code": "G09",
+    "dept_name": "園藝與休閒"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "29",
+    "group_name": "農業群",
+    "dept_code": "G10",
+    "dept_name": "綜合農業"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "29",
+    "group_name": "農業群",
+    "dept_code": "G11",
+    "dept_name": "休閒農業管理"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "30",
+    "group_name": "食品群",
+    "dept_code": "W01",
+    "dept_name": "食品加工"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "30",
+    "group_name": "食品群",
+    "dept_code": "W02",
+    "dept_name": "食品烘焙"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "30",
+    "group_name": "食品群",
+    "dept_code": "W03",
+    "dept_name": "食品技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "30",
+    "group_name": "食品群",
+    "dept_code": "W04",
+    "dept_name": "食品加工技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "31",
+    "group_name": "家政群",
+    "dept_code": "H01",
+    "dept_name": "美容"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "31",
+    "group_name": "家政群",
+    "dept_code": "H02",
+    "dept_name": "美容美髮"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "31",
+    "group_name": "家政群",
+    "dept_code": "H03",
+    "dept_name": "服裝製作"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "31",
+    "group_name": "家政群",
+    "dept_code": "H04",
+    "dept_name": "服裝設計"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "31",
+    "group_name": "家政群",
+    "dept_code": "H05",
+    "dept_name": "服裝"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "31",
+    "group_name": "家政群",
+    "dept_code": "H06",
+    "dept_name": "美容技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "31",
+    "group_name": "家政群",
+    "dept_code": "H07",
+    "dept_name": "家政"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "31",
+    "group_name": "家政群",
+    "dept_code": "H08",
+    "dept_name": "幼兒保育"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "31",
+    "group_name": "家政群",
+    "dept_code": "H09",
+    "dept_name": "時尚設計"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "31",
+    "group_name": "家政群",
+    "dept_code": "H10",
+    "dept_name": "幼老福利"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "32",
+    "group_name": "餐旅群",
+    "dept_code": "J01",
+    "dept_name": "餐飲服務"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "32",
+    "group_name": "餐旅群",
+    "dept_code": "J02",
+    "dept_name": "餐飲技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "32",
+    "group_name": "餐旅群",
+    "dept_code": "J03",
+    "dept_name": "餐飲製作"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "32",
+    "group_name": "餐旅群",
+    "dept_code": "J04",
+    "dept_name": "餐飲管理"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "32",
+    "group_name": "餐旅群",
+    "dept_code": "J05",
+    "dept_name": "運動與休閒"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "32",
+    "group_name": "餐旅群",
+    "dept_code": "J06",
+    "dept_name": "休閒事務"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "32",
+    "group_name": "餐旅群",
+    "dept_code": "J07",
+    "dept_name": "觀光事務"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "32",
+    "group_name": "餐旅群",
+    "dept_code": "J08",
+    "dept_name": "觀光事業"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "32",
+    "group_name": "餐旅群",
+    "dept_code": "J09",
+    "dept_name": "觀光餐飲"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "32",
+    "group_name": "餐旅群",
+    "dept_code": "J10",
+    "dept_name": "觀光餐旅"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "32",
+    "group_name": "餐旅群",
+    "dept_code": "J11",
+    "dept_name": "觀光"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "32",
+    "group_name": "餐旅群",
+    "dept_code": "J12",
+    "dept_name": "餐飲觀光"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "32",
+    "group_name": "餐旅群",
+    "dept_code": "J13",
+    "dept_name": "運動休閒"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "32",
+    "group_name": "餐旅群",
+    "dept_code": "J14",
+    "dept_name": "運動與休閒管理"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "32",
+    "group_name": "餐旅群",
+    "dept_code": "J15",
+    "dept_name": "運動休閒與管理"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "32",
+    "group_name": "餐旅群",
+    "dept_code": "J16",
+    "dept_name": "觀光休閒"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "32",
+    "group_name": "餐旅群",
+    "dept_code": "J17",
+    "dept_name": "觀光服務"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "32",
+    "group_name": "餐旅群",
+    "dept_code": "J18",
+    "dept_name": "餐飲經營"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "32",
+    "group_name": "餐旅群",
+    "dept_code": "J19",
+    "dept_name": "食品烘焙"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "33",
+    "group_name": "水產群",
+    "dept_code": "Q01",
+    "dept_name": "水產養殖技術"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "33",
+    "group_name": "水產群",
+    "dept_code": "Q02",
+    "dept_name": "水產養殖"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "34",
+    "group_name": "海事群",
+    "dept_code": "R01",
+    "dept_name": "漁業"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "41",
+    "group_name": "綜合",
+    "dept_code": "099",
+    "dept_name": "其他"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "41",
+    "group_name": "綜合",
+    "dept_code": "Y01",
+    "dept_name": "銀髮族活動管理"
+  },
+  {
+    "program_type": "綜合型高中",
+    "group_code": "41",
+    "group_name": "綜合",
+    "dept_code": "Y02",
+    "dept_name": "綜合職能"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "L15",
+    "dept_name": "機械修護科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "L17",
+    "dept_name": "焊接科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "L20",
+    "dept_name": "機械板金科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "L33",
+    "dept_name": "冷作科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "L47",
+    "dept_name": "自行車技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "L51",
+    "dept_name": "模具基礎技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "L52",
+    "dept_name": "模具技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "L55",
+    "dept_name": "電腦繪圖科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "L59",
+    "dept_name": "機械加工科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "L61",
+    "dept_name": "鑄造工科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "21",
+    "group_name": "機械群",
+    "dept_code": "L62",
+    "dept_name": "鑄造技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "22",
+    "group_name": "動力機械群",
+    "dept_code": "L01",
+    "dept_name": "汽車修護科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "22",
+    "group_name": "動力機械群",
+    "dept_code": "L19",
+    "dept_name": "汽車板金科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "22",
+    "group_name": "動力機械群",
+    "dept_code": "L21",
+    "dept_name": "汽車電機科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "22",
+    "group_name": "動力機械群",
+    "dept_code": "L25",
+    "dept_name": "塗裝技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "22",
+    "group_name": "動力機械群",
+    "dept_code": "L45",
+    "dept_name": "引擎修護科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "22",
+    "group_name": "動力機械群",
+    "dept_code": "L63",
+    "dept_name": "機車修護科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "22",
+    "group_name": "動力機械群",
+    "dept_code": "L75",
+    "dept_name": "板金科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "L03",
+    "dept_name": "水電技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "L23",
+    "dept_name": "視聽電子修護科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "L24",
+    "dept_name": "視聽電子科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "L29",
+    "dept_name": "電機修護科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "L31",
+    "dept_name": "家電技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "L37",
+    "dept_name": "微電腦修護科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "L49",
+    "dept_name": "冷凍空調修護科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "L50",
+    "dept_name": "冷凍空調技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "L53",
+    "dept_name": "檢測器修護科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "L65",
+    "dept_name": "事務機械修護科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "23",
+    "group_name": "電機與電子群",
+    "dept_code": "L67",
+    "dept_name": "儀表修護科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "24",
+    "group_name": "化工群",
+    "dept_code": "L25",
+    "dept_name": "塗裝技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "24",
+    "group_name": "化工群",
+    "dept_code": "L69",
+    "dept_name": "化工技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "24",
+    "group_name": "化工群",
+    "dept_code": "L71",
+    "dept_name": "染整技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "25",
+    "group_name": "土木與建築群",
+    "dept_code": "L05",
+    "dept_name": "裝潢技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "25",
+    "group_name": "土木與建築群",
+    "dept_code": "L35",
+    "dept_name": "營造技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "25",
+    "group_name": "土木與建築群",
+    "dept_code": "L55",
+    "dept_name": "電腦繪圖科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "M03",
+    "dept_name": "廣告技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "M05",
+    "dept_name": "商業事務科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "M09",
+    "dept_name": "商用資訊科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "M11",
+    "dept_name": "會計實務科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "M15",
+    "dept_name": "文書處理科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "M19",
+    "dept_name": "銷售事務科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "26",
+    "group_name": "商業與管理群",
+    "dept_code": "M29",
+    "dept_name": "多媒體技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "L07",
+    "dept_name": "陶瓷技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "L09",
+    "dept_name": "製鞋技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "L11",
+    "dept_name": "皮革製品科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "L13",
+    "dept_name": "製鏡技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "L27",
+    "dept_name": "印刷製版科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "L39",
+    "dept_name": "金屬工藝科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "L41",
+    "dept_name": "竹木工藝科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "L43",
+    "dept_name": "木雕技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "L57",
+    "dept_name": "金石飾品加工科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "L58",
+    "dept_name": "金銀珠寶加工科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "L79",
+    "dept_name": "流行飾品製作科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "L81",
+    "dept_name": "服裝製作科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "M03",
+    "dept_name": "廣告技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "28",
+    "group_name": "設計群",
+    "dept_code": "M25",
+    "dept_name": "裝裱技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "29",
+    "group_name": "農業群",
+    "dept_code": "K01",
+    "dept_name": "農業技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "29",
+    "group_name": "農業群",
+    "dept_code": "K03",
+    "dept_name": "園藝技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "29",
+    "group_name": "農業群",
+    "dept_code": "K09",
+    "dept_name": "花藝技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "29",
+    "group_name": "農業群",
+    "dept_code": "K11",
+    "dept_name": "寵物經營科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "29",
+    "group_name": "農業群",
+    "dept_code": "K13",
+    "dept_name": "畜產加工科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "29",
+    "group_name": "農業群",
+    "dept_code": "K17",
+    "dept_name": "茶葉技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "29",
+    "group_name": "農業群",
+    "dept_code": "K19",
+    "dept_name": "造園技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "29",
+    "group_name": "農業群",
+    "dept_code": "K27",
+    "dept_name": "休閒農業科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "30",
+    "group_name": "食品群",
+    "dept_code": "K13",
+    "dept_name": "畜產加工科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "30",
+    "group_name": "食品群",
+    "dept_code": "K15",
+    "dept_name": "食品經營科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "30",
+    "group_name": "食品群",
+    "dept_code": "K21",
+    "dept_name": "烘焙食品科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "30",
+    "group_name": "食品群",
+    "dept_code": "K25",
+    "dept_name": "肉品加工科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "30",
+    "group_name": "食品群",
+    "dept_code": "P17",
+    "dept_name": "水產食品加工科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "31",
+    "group_name": "家政群",
+    "dept_code": "K09",
+    "dept_name": "花藝技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "31",
+    "group_name": "家政群",
+    "dept_code": "N01",
+    "dept_name": "西服科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "31",
+    "group_name": "家政群",
+    "dept_code": "N03",
+    "dept_name": "女裝科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "31",
+    "group_name": "家政群",
+    "dept_code": "N05",
+    "dept_name": "美髮技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "31",
+    "group_name": "家政群",
+    "dept_code": "N11",
+    "dept_name": "美顏技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "31",
+    "group_name": "家政群",
+    "dept_code": "N23",
+    "dept_name": "飾品製作科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "32",
+    "group_name": "餐旅群",
+    "dept_code": "K21",
+    "dept_name": "烘焙食品科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "32",
+    "group_name": "餐旅群",
+    "dept_code": "M14",
+    "dept_name": "觀光事務科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "32",
+    "group_name": "餐旅群",
+    "dept_code": "M17",
+    "dept_name": "餐飲技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "32",
+    "group_name": "餐旅群",
+    "dept_code": "M21",
+    "dept_name": "中餐廚師科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "32",
+    "group_name": "餐旅群",
+    "dept_code": "M23",
+    "dept_name": "西餐廚師科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "32",
+    "group_name": "餐旅群",
+    "dept_code": "M27",
+    "dept_name": "旅遊事務科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "32",
+    "group_name": "餐旅群",
+    "dept_code": "N15",
+    "dept_name": "飲料調整科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "32",
+    "group_name": "餐旅群",
+    "dept_code": "N25",
+    "dept_name": "烹調技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "32",
+    "group_name": "餐旅群",
+    "dept_code": "P19",
+    "dept_name": "海洋觀光事業科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "33",
+    "group_name": "水產群",
+    "dept_code": "P01",
+    "dept_name": "水產養殖技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "33",
+    "group_name": "水產群",
+    "dept_code": "P13",
+    "dept_name": "漁具製作科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "33",
+    "group_name": "水產群",
+    "dept_code": "P23",
+    "dept_name": "休閒漁業科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "34",
+    "group_name": "海事群",
+    "dept_code": "P09",
+    "dept_name": "海事資訊處理科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "34",
+    "group_name": "海事群",
+    "dept_code": "P11",
+    "dept_name": "船舶電機技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "34",
+    "group_name": "海事群",
+    "dept_code": "P12",
+    "dept_name": "船舶機電科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "34",
+    "group_name": "海事群",
+    "dept_code": "P15",
+    "dept_name": "動力小艇技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "34",
+    "group_name": "海事群",
+    "dept_code": "P21",
+    "dept_name": "港埠事務科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "36",
+    "group_name": "美容造型群",
+    "dept_code": "N05",
+    "dept_name": "美髮技術科"
+  },
+  {
+    "program_type": "學程型專班",
+    "group_code": "36",
+    "group_name": "美容造型群",
+    "dept_code": "N11",
+    "dept_name": "美顏技術科"
+  }
+]

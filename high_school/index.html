@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TW School</title>
+    <meta name="description" content="Taiwan High School Code" />
+    <meta name="author" content="Woody Lo Wen-Cheng" />
+
+    <link
+      rel="stylesheet"
+      href="../vender/bootstrap-5.3.3/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./tw-school.css" />
+    <link rel="stylesheet" href="./tw-shool-department.css" />
+  </head>
+  <body>
+    <div class="page-wrap">
+      <div class="row g-4">
+        <!-- 左側：學校清單 -->
+        <div class="col-12 col-xl-8">
+          <div class="card-box">
+            <div class="sticky-tools">
+              <div
+                class="d-flex flex-wrap justify-content-between align-items-center gap-3 mb-3"
+              >
+                <div id="pageTopAnchor">
+                  <h2 class="mb-1">高中職學校清單</h2>
+                  <div class="small-note">資料來源：HighSchoolList.json</div>
+                </div>
+
+                <div class="d-flex gap-2 flex-wrap">
+                  <button id="copyVisibleBtn" class="btn btn-primary">
+                    複製目前篩選結果
+                  </button>
+                  <button id="resetBtn" class="btn btn-outline-secondary">
+                    重設篩選
+                  </button>
+                </div>
+              </div>
+
+              <div class="row g-3 filter-row mb-3">
+                <div class="col-12 col-md-4">
+                  <label for="keywordInput" class="form-label"
+                    >關鍵字搜尋</label
+                  >
+                  <input
+                    type="text"
+                    id="keywordInput"
+                    class="form-control"
+                    placeholder="可搜尋學校代碼、名稱、地址、電話、網址、備註"
+                  />
+                </div>
+
+                <div class="col-12 col-md-3">
+                  <label for="cityFilter" class="form-label">縣市</label>
+                  <select id="cityFilter" class="form-select">
+                    <option value="">全部縣市</option>
+                  </select>
+                </div>
+
+                <div class="col-12 col-md-2">
+                  <label for="ownshipFilter" class="form-label"
+                    >公 / 私立</label
+                  >
+                  <select id="ownshipFilter" class="form-select">
+                    <option value="">全部</option>
+                    <option value="公立">公立</option>
+                    <option value="私立">私立</option>
+                  </select>
+                </div>
+
+                <div class="col-12 col-md-3">
+                  <label for="countInfo" class="form-label">資料筆數</label>
+                  <input
+                    id="countInfo"
+                    class="form-control"
+                    value="載入中..."
+                    readonly
+                  />
+                </div>
+              </div>
+
+              <div class="mb-2">
+                <span id="copyMessage" class="small-note"></span>
+              </div>
+            </div>
+
+            <div class="table-wrap">
+              <table
+                class="table table-striped table-hover align-middle school-list-table"
+              >
+                <thead>
+                  <tr>
+                    <th data-key="school_code">
+                      學校代碼 <span class="sort-indicator"></span>
+                    </th>
+                    <th data-key="school_name">
+                      學校名稱 <span class="sort-indicator"></span>
+                    </th>
+                    <th data-key="school_ownship">
+                      公 / 私立 <span class="sort-indicator"></span>
+                    </th>
+                    <th data-key="city_name">
+                      縣市 <span class="sort-indicator"></span>
+                    </th>
+                    <th data-key="city_code">
+                      城市代碼 <span class="sort-indicator"></span>
+                    </th>
+                    <th data-key="shcool_adress">
+                      地址 <span class="sort-indicator"></span>
+                    </th>
+                    <th data-key="school_phone">
+                      電話 <span class="sort-indicator"></span>
+                    </th>
+                    <th data-key="school_website">
+                      網址 <span class="sort-indicator"></span>
+                    </th>
+                    <th data-key="remark">
+                      備註 <span class="sort-indicator"></span>
+                    </th>
+                    <th>操作</th>
+                  </tr>
+                </thead>
+                <tbody id="schoolTableBody">
+                  <tr>
+                    <td colspan="10" class="text-center py-4">資料載入中...</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- 右側：單選後帶出的直式表格 -->
+        <div class="col-12 col-xl-4">
+          <div class="card-box selected-card">
+            <div
+              class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-3"
+            >
+              <div id="pageMiddleAnchor">
+                <h3 class="mb-1">已選取學校</h3>
+                <div class="small-note">請在左側表格點選一所學校</div>
+              </div>
+              <button
+                id="copySelectedBtn"
+                class="btn btn-outline-primary btn-sm"
+                type="button"
+              >
+                複製選取資料
+              </button>
+            </div>
+
+            <div id="selectedSchoolEmpty" class="selected-empty">
+              尚未選取學校
+            </div>
+
+            <div id="selectedSchoolPanel" class="selected-panel d-none">
+              <div class="selected-school-title" id="selectedSchoolTitle">
+                －
+              </div>
+
+              <div class="detail-table-wrap">
+                <table
+                  class="table table-bordered detail-table align-middle mb-0"
+                >
+                  <tbody>
+                    <tr>
+                      <th>學校代號</th>
+                      <td id="detailSchoolCode">－</td>
+                    </tr>
+                    <tr>
+                      <th>學校</th>
+                      <td id="detailSchoolName">－</td>
+                    </tr>
+                    <tr>
+                      <th>城市</th>
+                      <td id="detailCityName">－</td>
+                    </tr>
+                    <tr>
+                      <th>城市代號</th>
+                      <td id="detailCityId">－</td>
+                    </tr>
+                    <tr>
+                      <th>學校類型</th>
+                      <td id="detailSchoolOwnship">－</td>
+                    </tr>
+                    <tr>
+                      <th>類群代號</th>
+                      <td id="detailGroupCode">－</td>
+                    </tr>
+                    <tr>
+                      <th>科系代號</th>
+                      <td id="detailDeptCode">－</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="mt-3">
+                <div class="small-note mb-2">補充資訊</div>
+                <table
+                  class="table table-sm table-bordered detail-subtable mb-0"
+                >
+                  <tbody>
+                    <tr>
+                      <th>類群名稱</th>
+                      <td id="detailGroup">－</td>
+                    </tr>
+                    <tr>
+                      <th>科系名稱</th>
+                      <td id="detailDepartment">－</td>
+                    </tr>
+                    <tr>
+                      <th>地址</th>
+                      <td id="detailAddress">－</td>
+                    </tr>
+                    <tr>
+                      <th>電話</th>
+                      <td id="detailPhone">－</td>
+                    </tr>
+                    <tr>
+                      <th>網址</th>
+                      <td id="detailWebsite">－</td>
+                    </tr>
+                    <tr>
+                      <th>備註</th>
+                      <td id="detailRemark">－</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <!-- 新增：selectedDepartmentPanel -->
+              <div
+                id="selectedDepartmentPanel"
+                class="selected-department-panel mt-4"
+              >
+                <div
+                  class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-3"
+                >
+                  <div id="pageBottomAnchor">
+                    <h4 class="mb-1">類群 / 科系代碼清單</h4>
+                    <div class="small-note">
+                      資料來源：HighSchoolProgramGroups.json
+                    </div>
+                  </div>
+                  <button
+                    id="copySelectedDepartmentBtn"
+                    class="btn btn-outline-primary btn-sm"
+                    type="button"
+                  >
+                    複製選取類群/科系
+                  </button>
+                </div>
+
+                <div class="row g-3 department-filter-row mb-3">
+                  <div class="col-12 col-md-7">
+                    <label for="departmentKeywordInput" class="form-label"
+                      >關鍵字搜尋</label
+                    >
+                    <input
+                      type="text"
+                      id="departmentKeywordInput"
+                      class="form-control"
+                      placeholder="可搜尋類群代碼、類群名稱、科系代碼、科系名稱"
+                    />
+                  </div>
+
+                  <div class="col-12 col-md-5">
+                    <label for="departmentCountInfo" class="form-label"
+                      >資料筆數</label
+                    >
+                    <input
+                      id="departmentCountInfo"
+                      class="form-control"
+                      value="載入中..."
+                      readonly
+                    />
+                  </div>
+                </div>
+
+                <div class="mb-2">
+                  <span id="departmentCopyMessage" class="small-note"></span>
+                </div>
+
+                <div class="department-table-wrap">
+                  <table
+                    class="table table-striped table-hover align-middle department-list-table"
+                  >
+                    <thead>
+                      <tr>
+                        <th data-dept-key="group_code">
+                          類群代號 <span class="sort-indicator"></span>
+                        </th>
+                        <th data-dept-key="group_name">
+                          類群名稱 <span class="sort-indicator"></span>
+                        </th>
+                        <th data-dept-key="dept_code">
+                          科系代號 <span class="sort-indicator"></span>
+                        </th>
+                        <th data-dept-key="dept_name">
+                          科系名稱 <span class="sort-indicator"></span>
+                        </th>
+                        <th>操作</th>
+                      </tr>
+                    </thead>
+                    <tbody id="departmentTableBody">
+                      <tr>
+                        <td colspan="5" class="text-center py-4">
+                          資料載入中...
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div class="mt-3">
+                  <div
+                    id="selectedDepartmentEmpty"
+                    class="selected-empty selected-department-empty"
+                  >
+                    尚未選取類群 / 科系
+                  </div>
+
+                  <div id="selectedDepartmentDetail" class="d-none">
+                    <div class="small-note mb-2">已選取類群 / 科系</div>
+                    <div class="detail-table-wrap">
+                      <table
+                        class="table table-bordered detail-table align-middle mb-0"
+                      >
+                        <tbody>
+                          <tr>
+                            <th>類群代號</th>
+                            <td id="selectedGroupCode">－</td>
+                          </tr>
+                          <tr>
+                            <th>類群名稱</th>
+                            <td id="selectedGroupName">－</td>
+                          </tr>
+                          <tr>
+                            <th>科系代號</th>
+                            <td id="selectedDeptCode">－</td>
+                          </tr>
+                          <tr>
+                            <th>科系名稱</th>
+                            <td id="selectedDeptName">－</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- /selectedDepartmentPanel -->
+            </div>
+
+            <div class="mt-3">
+              <span id="selectedCopyMessage" class="small-note"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="pageViewMover" class="page-view-mover" aria-label="頁面快速移動">
+      <button
+        type="button"
+        class="page-view-btn"
+        data-move-target="pageTopAnchor"
+        title="移動到高中職學校清單"
+      >
+        上
+      </button>
+      <button
+        type="button"
+        class="page-view-btn"
+        data-move-target="pageMiddleAnchor"
+        title="移動到已選取學校"
+      >
+        中
+      </button>
+      <button
+        type="button"
+        class="page-view-btn"
+        data-move-target="pageBottomAnchor"
+        title="移動到類群 / 科系代碼清單"
+      >
+        下
+      </button>
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+      © 2026 羅文成
+    </div>
+    <!-- Copyright -->
+
+    <script src="./tw-school.js"></script>
+    <script src="./tw-shool-department.js"></script>
+    <script src="./tw-school.js"></script>
+    <script src="./move-page-view.js"></script>
+  </body>
+</html>

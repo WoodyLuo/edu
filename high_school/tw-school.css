@@ -1,0 +1,178 @@
+body {
+  background: #f8f9fa;
+  font-family: "Microsoft JhengHei", "Noto Sans TC", sans-serif;
+}
+
+.page-wrap {
+  max-width: 1800px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+.card-box {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.table-wrap {
+  max-height: 70vh;
+  overflow: auto;
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+}
+
+.school-list-table {
+  margin-bottom: 0;
+  min-width: 1400px;
+}
+
+.school-list-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: #212529 !important;
+  color: #fff !important;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+}
+
+.school-list-table tbody td {
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.school-name {
+  font-weight: 600;
+}
+
+.website-link {
+  display: inline-block;
+  max-width: 260px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.filter-row .form-control,
+.filter-row .form-select {
+  min-height: 44px;
+}
+
+.sort-indicator {
+  font-size: 12px;
+  margin-left: 6px;
+  opacity: 0.8;
+}
+
+.small-note {
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.copy-success {
+  color: #198754;
+  font-weight: 600;
+}
+
+.copy-error {
+  color: #dc3545;
+  font-weight: 600;
+}
+
+.badge-ownship {
+  font-size: 13px;
+  padding: 6px 10px;
+}
+
+.sticky-tools {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background: #fff;
+  padding-bottom: 12px;
+}
+
+.school-row {
+  cursor: pointer;
+}
+
+.school-row:hover {
+  outline: 1px solid #b6d4fe;
+}
+
+.school-row.is-selected > td {
+  background: #dbeafe !important;
+}
+
+.selected-card {
+  min-height: 640px;
+}
+
+.selected-empty {
+  min-height: 200px;
+  border: 1px dashed #ced4da;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6c757d;
+  background: #fafafa;
+}
+
+.selected-school-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #212529;
+}
+
+.detail-table-wrap {
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.detail-table,
+.detail-subtable {
+  margin-bottom: 0;
+}
+
+.detail-table th,
+.detail-subtable th {
+  width: 120px;
+  min-width: 120px;
+  background: #f1f3f5;
+  white-space: nowrap;
+}
+
+.detail-table td,
+.detail-subtable td {
+  white-space: normal;
+  word-break: break-word;
+}
+
+.detail-table td,
+.detail-subtable td,
+.detail-table th,
+.detail-subtable th {
+  padding: 12px 14px;
+}
+
+.detail-link {
+  word-break: break-all;
+}
+
+.selected-department-panel {
+  border-top: 1px solid #e9ecef;
+  padding-top: 20px;
+}
+
+@media (max-width: 1199.98px) {
+  .selected-card {
+    min-height: auto;
+  }
+}
