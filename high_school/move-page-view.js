@@ -85,8 +85,8 @@
 
   function updateActiveButton() {
     const sections = [
-      { id: "pageMiddleAnchor", btn: document.querySelector('[data-move-target="pageTopAnchor"]') },
-      { id: "pageTopAnchor", btn: document.querySelector('[data-move-target="pageMiddleAnchor"]') },
+      { id: "pageTopAnchor", btn: document.querySelector('[data-move-target="pageTopAnchor"]') },
+      { id: "pageMiddleAnchor", btn: document.querySelector('[data-move-target="pageMiddleAnchor"]') },
       { id: "pageBottomAnchor", btn: document.querySelector('[data-move-target="pageBottomAnchor"]') },
     ];
 
