@@ -255,6 +255,13 @@
     "program_type": "技術型高中",
     "group_code": "23",
     "group_name": "電機與電子群",
+    "dept_code": "321",
+    "dept_name": " 電機空調科"
+  },
+  {
+    "program_type": "技術型高中",
+    "group_code": "23",
+    "group_name": "電機與電子群",
     "dept_code": "384",
     "dept_name": "航空電子科"
   },
