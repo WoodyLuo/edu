@@ -55,3 +55,37 @@ button:hover {
   color: #f5f5f5;
   white-space: pre-wrap;
 }
+
+select,
+input {
+  padding: 12px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+select {
+  min-width: 140px;
+}
+
+input {
+  flex: 1;
+}
+
+.examples {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+@media (max-width: 640px) {
+  .search-group {
+    flex-direction: column;
+  }
+
+  select,
+  input,
+  button {
+    width: 100%;
+  }
+}

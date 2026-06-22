@@ -2,32 +2,60 @@
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8">
+
   <meta
     name="viewport"
     content="width=device-width, initial-scale=1.0"
   >
-  <title>高中學校資料查詢</title>
+
+  <title>高中學校與科系資料查詢</title>
+
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <main class="container">
-    <h1>高中學校資料查詢</h1>
+    <h1>高中學校與科系資料查詢</h1>
 
     <form id="searchForm">
-      <label for="keyword">學校代碼或學校名稱</label>
+      <label for="searchType">查詢類型</label>
 
       <div class="search-group">
+        <select id="searchType" name="searchType">
+          <option value="school_code">
+            學校代碼
+          </option>
+
+          <option value="school_name">
+            學校名稱
+          </option>
+
+          <option value="dept_code">
+            科系代碼
+          </option>
+
+          <option value="dept_name">
+            科系名稱
+          </option>
+        </select>
+
         <input
           id="keyword"
           type="text"
-          placeholder="例如：010301 或 華僑"
+          placeholder="例如：010301、華僑、101、普通科"
           required
         >
 
-        <button type="submit">查詢</button>
+        <button type="submit">
+          查詢
+        </button>
       </div>
     </form>
+
+    <p class="examples">
+      查詢範例：學校代碼 010301、學校名稱 華僑、
+      科系代碼 101、科系名稱 普通科
+    </p>
 
     <p id="message"></p>
 
