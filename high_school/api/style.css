@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, "Noto Sans TC", sans-serif;
+  background: #f4f6f8;
+  color: #222;
+}
+
+.container {
+  width: min(900px, calc(100% - 32px));
+  margin: 40px auto;
+  padding: 24px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 18px rgb(0 0 0 / 10%);
+}
+
+.search-group {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+input {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+}
+
+button {
+  padding: 12px 20px;
+  border: 0;
+  border-radius: 6px;
+  background: #1769aa;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #125486;
+}
+
+#message {
+  margin-top: 24px;
+}
+
+#result {
+  overflow-x: auto;
+  padding: 16px;
+  border-radius: 8px;
+  background: #1e1e1e;
+  color: #f5f5f5;
+  white-space: pre-wrap;
+}

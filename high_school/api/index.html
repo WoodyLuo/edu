@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <title>高中學校資料查詢</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="container">
+    <h1>高中學校資料查詢</h1>
+
+    <form id="searchForm">
+      <label for="keyword">學校代碼或學校名稱</label>
+
+      <div class="search-group">
+        <input
+          id="keyword"
+          type="text"
+          placeholder="例如：010301 或 華僑"
+          required
+        >
+
+        <button type="submit">查詢</button>
+      </div>
+    </form>
+
+    <p id="message"></p>
+
+    <pre id="result"></pre>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
